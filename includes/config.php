@@ -10,7 +10,7 @@ function config($key = '')
     $config = [
         'name' => 'BumbleBees',
         'pretty_uri' => false,
-        'site_url' => 'https://csu-php-demo.herokuapp.com',
+        'site_url' => 'https://sec-schedulars.herokuapp.com/',
         'nav_menu' => [
             'home' => 'home'
         ],
