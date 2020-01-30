@@ -22,6 +22,7 @@
     <title><?php site_name(); ?></title>
   </head>
   <body>
+  <div class="container">
   <nav class="navbar navbar-expand-lg navbar-transparent">
   <a class="navbar-brand" href="#" >
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,6 +41,6 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <footer> <p>Footer</p>
-    </footer>
+    </footer></div>
   </body>
 </html>
