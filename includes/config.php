@@ -8,11 +8,11 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'BumbleBees',
+        'name' => 'Schedular',
         'pretty_uri' => false,
         'site_url' => 'https://sec-schedulars.herokuapp.com/',
         'nav_menu' => [
-            'home' => 'home'
+            'home' => 'Home'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
