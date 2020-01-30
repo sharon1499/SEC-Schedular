@@ -29,7 +29,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav justify-content-center">
       <?php  nav_menu(); ?>
     </ul>
   </div>
