@@ -10,3 +10,8 @@ body {
 .bg-navbar-color {
     background-color: #9cb3e3;
 }
+
+.home-header {
+    background-color: red;
+    margin-top: -10px;
+}
