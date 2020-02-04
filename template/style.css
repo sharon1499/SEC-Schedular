@@ -14,8 +14,12 @@ body {
 .home-header {
     background-color:black;
     margin-top: -10px;
-    height: 212px;
+    height: 24rem;
     padding-left: 8em;
-    padding-top: 4em;
+    padding-top: 8em;
     color: white;
+}
+
+.button-height {
+    margin-top: 1em;
 }
