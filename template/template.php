@@ -22,9 +22,8 @@
     <title><?php site_name(); ?></title>
   </head>
   <body>
-  <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#" ><img src="calendar.svg"/></a>
+  <a class="navbar-brand" href="#" ><img src="calendar.svg" height="20" width="20"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,6 +39,6 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <footer> <p>Footer</p>
-    </footer></div>
+    </footer>
   </body>
 </html>
