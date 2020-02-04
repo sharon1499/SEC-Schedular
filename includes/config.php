@@ -12,7 +12,9 @@ function config($key = '')
         'pretty_uri' => false,
         'site_url' => 'https://sec-schedulars.herokuapp.com/',
         'nav_menu' => [
-            'home' => 'Home'
+            'home' => 'Home',
+            'contact' => 'Contact',
+            'buildings' => 'Buildings'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
