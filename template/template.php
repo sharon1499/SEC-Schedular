@@ -23,12 +23,12 @@
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#" ><img src="calendar.svg" height="20" width="20"/></a>
+  <a class="navbar-brand" href="#" ><img src="calendar.svg" height="70" width="70"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav nav-text-size">
       <?php  nav_menu(); ?>
     </ul>
   </div>
