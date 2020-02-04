@@ -12,6 +12,10 @@ body {
 }
 
 .home-header {
-    background-color: red;
+    background-color:black;
     margin-top: -10px;
+    height: 212px;
+    padding-left: 8em;
+    padding-top: 4em;
+    color: white;
 }
