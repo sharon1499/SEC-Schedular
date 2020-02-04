@@ -2,7 +2,7 @@ body {
     background-color: aqua;
 }
 
-ul.nav-text-size {
+.nav-text-size {
     font-size: 1.5em;
     font-weight: 800;
 }
