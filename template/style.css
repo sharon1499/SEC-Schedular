@@ -29,3 +29,8 @@ body {
     background-color: rgb(204, 0, 0);
     color: white;
 }
+
+.text-edit {
+    text-decoration: underline;
+    display: block;
+}
