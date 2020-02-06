@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+
+.nav-text-size {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: white;
+}
+
+.bg-navbar-color {
+    background-color: rgb(204, 0, 0);
+}
+
+.home-header {
+    background-color: darkgray;
+    margin-top: -10px;
+    height: 24rem;
+    padding-left: 8em;
+    padding-top: 8em;
+    color: black;
+}
+
+.button-height {
+    margin-top: 1em;
+}
+
+.btn-color {
+    background-color: rgb(204, 0, 0);
+    color: white;
+}
+
+.text-edit {
+    text-decoration: underline;
+    display: block;
+}
