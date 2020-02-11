@@ -30,6 +30,10 @@ body {
     margin-left: 13em;
 }
 
+.copyright {
+    font-size: 0.1em;
+}
+
 .button-height {
     margin-top: 1em;
 }
