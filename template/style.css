@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    background-image: url("logo-image.png");
 }
 
 .nav-text-size {
@@ -15,7 +14,7 @@ body {
 
 .home-header {
     background-color: darkgray;
-    background-image: url("logo-image.png");
+    background: url("logo-image.png") no-repeat;
     margin-top: -10px;
     height: 24rem;
     padding-left: 8em;
