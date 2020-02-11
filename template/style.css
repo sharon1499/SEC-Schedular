@@ -15,13 +15,19 @@ body {
 .home-header {
     background-color: darkgray;
     margin-top: -10px;
-    height: 29rem;
+    height: 27rem;
     padding-left: 8em;
     padding-top: 5em;
     color: black;
 }
 
+.campus-header {
+    text-decoration: underline;
+    line-height: 2em;
+}
+
 .header-image {
+    margin-left: 13em;
 }
 
 .button-height {
@@ -34,8 +40,8 @@ body {
 }
 
 .text-edit {
-    text-decoration: underline;
     display: block;
+    font-size: 1.5em;
 }
 
 footer {
