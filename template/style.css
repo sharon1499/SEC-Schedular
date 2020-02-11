@@ -14,6 +14,7 @@ body {
 
 .home-header {
     background-color: darkgray;
+    background-image: url("logo-image.png");
     margin-top: -10px;
     height: 24rem;
     padding-left: 8em;
