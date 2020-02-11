@@ -37,7 +37,7 @@
 <?php page_content();?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <footer> <p>Footer</p>
+   <footer class="navbar-fixed-bottom"> <p>Footer</p>
     </footer>
   </body>
 </html>

@@ -15,10 +15,24 @@ body {
 .home-header {
     background-color: darkgray;
     margin-top: -10px;
-    height: 24rem;
+    height: 27rem;
     padding-left: 8em;
-    padding-top: 8em;
+    padding-top: 5em;
     color: black;
+}
+
+.campus-header {
+    text-decoration: underline;
+    line-height: 2em;
+}
+
+.header-image {
+    margin-left: 13em;
+}
+
+.copyright {
+    font-size: 0.3em;
+    margin-left: 65em;
 }
 
 .button-height {
@@ -31,6 +45,16 @@ body {
 }
 
 .text-edit {
-    text-decoration: underline;
     display: block;
+    font-size: 1.5em;
+}
+
+footer {
+	background-color: rgb(204, 0, 0);
+	color: white;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	overflow: hidden;
 }
