@@ -34,3 +34,13 @@ body {
     text-decoration: underline;
     display: block;
 }
+
+footer {
+	background-color: rgb(204, 0, 0);
+	color: white;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	overflow: hidden;
+}
