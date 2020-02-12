@@ -62,3 +62,8 @@ footer {
     width: 100%;
 	overflow: hidden;
 }
+
+.image-space {
+    margin-bottom: 8em;
+    margin-top: 8em;
+}
