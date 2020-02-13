@@ -3,11 +3,12 @@ body {
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
 
-
+.item {
+    padding-right: 4em;
 }
 
 .nav-text-size {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 800;
     color: white;
 }
