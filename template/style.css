@@ -68,7 +68,6 @@ footer {
 }
 
 .image-space {
-    margin-bottom: 8em;
     margin-top: 8em;
 }
 
@@ -88,6 +87,6 @@ footer {
 }
 
 .name-fix {
-    line-height: 1.3em;
+    line-height: 1.26em;
     padding: 0.992em;
 }
