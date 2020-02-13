@@ -1,12 +1,30 @@
 
 
+<img id="CCT" src="CCT.jpg" alt="Pic of CCT">
+<div id="modal1" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
 
-<p>
-<a class="image-link" href="logo-image_200x.png"> Open popup </a>
-</p>
+
 <script>
-(document).ready(function(){
-('.image-link').magnificPopup({type:'image'});    
-});
+    var modal = document.getElementId("myModal");
+    //summon image
+    var img = document.getElementById("CCT");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display ="block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+//closes modal
+
+var span = document.getElementByClassName("close")[0];
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
 
 </script>
