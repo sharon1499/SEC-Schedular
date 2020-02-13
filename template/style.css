@@ -67,3 +67,9 @@ footer {
     margin-bottom: 8em;
     margin-top: 8em;
 }
+
+.button-format {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}
