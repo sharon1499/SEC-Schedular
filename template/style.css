@@ -58,7 +58,7 @@ body {
 }
 
 footer {
-	background-color: rgb(204, 0, 0);
+	background-color:#6495ED;
 	color: white;
 	position: fixed;
     left: 0;
@@ -82,7 +82,7 @@ footer {
 .image-name {
     text-align: center;
     padding: 1.5em;
-    background-color: red;
+    background-color: #6495ED;
     color: white;
     font-size: 1.4em;
 }
@@ -90,4 +90,8 @@ footer {
 .name-fix {
     line-height: 1.26em;
     padding: 0.992em;
+}
+
+.fix-margin {
+    margin-bottom: 8em;
 }
