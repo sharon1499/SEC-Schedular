@@ -77,12 +77,13 @@ footer {
 
 .image-name {
     text-align: center;
-    padding: 2em;
+    padding: 1.5em;
     background-color: red;
     color: white;
+    font-size: 1.4em;
 }
 
 .name-fix {
     line-height: 1.3em;
-    padding: 0.5em;
+    padding: 0.96em;
 }
