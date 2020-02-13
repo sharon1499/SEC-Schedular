@@ -74,3 +74,10 @@ footer {
     text-align: center;
     padding: 2em;
 }
+
+.image-name {
+    text-align: center;
+    padding: 2em;
+    background-color: red;
+    color: white;
+}
