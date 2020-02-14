@@ -96,5 +96,9 @@ footer {
 }
 
 .navbar-fixed-bottom {
-    margin-top: 1em;
+    padding: 1em;
+}
+
+.contact-info-header-text {
+    font-size: 1.2em;
 }
