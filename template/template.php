@@ -39,7 +39,17 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <footer> 
    <div class="container navbar-fixed-bottom">
-   <span class="contact-info-header-text"><strong>Contact info</strong></span>
+   <div class="row">
+     <div class="col-md-3 mt-3">
+       <span class="contact-info-header-text"><strong>Contact info:</strong></span>
+       <p><a href="https://www.google.com/maps/place/Columbus+State+University/@32.5026472,-84.9426193,17z/data=!3m1!4b1!4m5!3m4!1s0x888ccd9630ce75eb:0xa33e54a5ab3b2796!8m2!3d32.5026472!4d-84.9404306" target="_blank">
+       4225 University Ave<br>
+       Columbus, GA 31907</a><br>
+       <a href="tel:7065078203">(706)507-8203</a>
+        </p>
+    </div>
+    </div>
+
     </footer>
   </body>
 </html>
