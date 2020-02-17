@@ -166,4 +166,12 @@ footer {
     .fixed-top{
         position: inherit;
     }
+
+    .header-image {
+        display: none;
+    }
+
+    .copyright{
+        display: none;
+    }
 }
