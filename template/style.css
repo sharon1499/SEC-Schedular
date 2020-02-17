@@ -138,8 +138,15 @@ footer {
 }
 
 .student-faculty-others {
-    border: 2px solid black;
+    border: 2px solid  #6495ED;
     border-radius: 5px;
+    background:#6495ED;
+}
+
+.student-faculty{
+    border: 2px solid #ffaaa0;
+    border-radius: 5px;
+    background:#ffaaa0;
 }
 
 .title-info{
