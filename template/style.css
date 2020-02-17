@@ -161,3 +161,9 @@ footer {
 .fix-margin-left{
     margin-left: -1em;
 }
+
+@media screen and (max-width: 320px){
+    .fixed-top{
+        position: initial;
+    }
+}
