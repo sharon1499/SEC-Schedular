@@ -164,6 +164,6 @@ footer {
 
 @media screen and (max-width: 320px){
     .fixed-top{
-        position: initial;
+        position: inherit;
     }
 }
