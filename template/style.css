@@ -136,3 +136,8 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #6495ED; 
 }
+
+.student-faculty-others {
+    border: 2px solid black;
+    border-radius: 5px;
+}
