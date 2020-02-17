@@ -157,14 +157,21 @@ footer {
 
 .fix-margin-right{
     margin-right: -1em;
+    margin-bottom: 25em;
 }
 
 .fix-margin-left{
     margin-left: -1em;
+    margin-bottom: 25em;
 }
 
 .schedule-intro{
     line-height: 3.5em;
+}
+
+.faculty-info{
+    display: block;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 320px){
