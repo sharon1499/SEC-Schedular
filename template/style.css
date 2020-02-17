@@ -104,6 +104,8 @@ footer {
 }
 
 .title-section {
+    font-size: 2em;
+    padding: 2.5em;
     text-align: center;
-    font-size: 1.5em;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
