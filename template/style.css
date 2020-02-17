@@ -32,7 +32,7 @@ html {
 
 .home-header {
     background-color: #FFE4E1;
-    height: 35rem;
+    height: 30rem;
     padding-left: 8em;
     padding-top: 11em;
     color: black;
@@ -115,7 +115,7 @@ footer {
 
 .title-section {
     font-size: 2em;
-    padding: 2.5em;
+    padding: 4.5em;
     text-align: center;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
