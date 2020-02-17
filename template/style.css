@@ -1,6 +1,11 @@
 body {
     background-color: #fff3e1;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .item {
