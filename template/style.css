@@ -153,3 +153,11 @@ footer {
     text-align: center;
     font-size: 2em;
 }
+
+.fix-margin-right{
+    margin-right: -1em;
+}
+
+.fix-margin-left{
+    margin-left: -1em;
+}
