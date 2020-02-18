@@ -1,5 +1,5 @@
 body {
-    background-color: #fff3e1;
+    background-color: #D3D3D3;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     height: 100%;
     margin-bottom: 40rem;
@@ -29,7 +29,7 @@ html {
 }
 
 .bg-navbar-color {
-    background-color: #6495ED;
+    background-color: #484848;
 }
 
 .contact-image {
@@ -37,11 +37,11 @@ html {
 }
 
 .home-header {
-    background-color: #FFE4E1;
+    background-color: black;
     height: 25rem;
     padding-left: 8em;
     padding-top: 11em;
-    color: black;
+    color: white;
     margin-top: 6em;
 }
 
@@ -65,7 +65,7 @@ html {
 }
 
 .btn-color {
-    background-color: rgb(204, 0, 0);
+    background-color: #40E0D0;
     color: white;
 }
 
@@ -75,7 +75,7 @@ html {
 }
 
 footer {
-	background-color:#6495ED;
+	background-color: #484848;
 	color: white;
 	position: fixed;
     left: 0;
@@ -136,6 +136,7 @@ footer {
 .title-section {
     font-size: 2em;
     padding: 4.5em;
+    color: black
     text-align: center;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
