@@ -2,12 +2,12 @@ body {
     background-color: #fff3e1;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     height: 100%;
-    /*margin-bottom: 50rem;*/
+    margin-bottom: 50rem;
 }
 
 html {
     height: 100%;
-    /*margin-bottom: 50rem;*/
+    margin-bottom: 50rem;
 }
 
 .scroll-content {
