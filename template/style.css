@@ -38,10 +38,11 @@ html {
 
 .home-header {
     background-color: #FFE4E1;
-    height: 31rem;
+    height: 25rem;
     padding-left: 8em;
     padding-top: 11em;
     color: black;
+    margin-top: 6em;
 }
 
 .campus-header {
