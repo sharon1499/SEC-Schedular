@@ -21,7 +21,6 @@
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
     <title><?php site_name(); ?></title>
   </head>
-  <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-navbar-color fixed-top">
   <a class="navbar-brand" href="#" ><img src="calendarv2.svg" height="70" width="70"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +32,7 @@
     </ul>
   </div>
 </nav>
-
+<body>
 <?php page_content();?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
