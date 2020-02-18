@@ -2,6 +2,7 @@ body {
     background-color: #fff3e1;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     height: 100%;
+    margin-bottom: 15rem;
 }
 
 html {
@@ -142,27 +143,30 @@ footer {
     border: 2px solid  #6495ED;
     border-radius: 5px;
     background:#6495ED;
+    padding: 4em;
 }
 
 .student-faculty{
     border: 2px solid #ffaaa0;
     border-radius: 5px;
     background:#ffaaa0;
+    padding: 4em;
 }
 
 .title-info{
     text-align: center;
     font-size: 2em;
+    margin-bottom: 0.5em;
 }
 
 .fix-margin-right{
     margin-right: -1em;
-    margin-bottom: 18em;
+    text-align: center;
 }
 
 .fix-margin-left{
     margin-left: -1em;
-    margin-bottom: 18em;
+    text-align: center;
 }
 
 .schedule-intro{
