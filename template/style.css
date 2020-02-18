@@ -89,6 +89,19 @@ footer {
     padding: 2em;
 }
 
+.button-format-2 {
+    margin-top: 1em;
+
+}
+
+.bg-color-1 {
+    background: #6495ED;
+}
+
+.bg-color-2 {
+    background:#ffaaa0;
+}
+
 .image-name {
     text-align: center;
     padding: 1.5em;
