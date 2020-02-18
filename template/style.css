@@ -2,7 +2,7 @@ body {
     background-color: #fff3e1;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     height: 100%;
-    margin-bottom: 15rem;
+    margin-bottom: 30rem;
 }
 
 html {
@@ -157,6 +157,7 @@ footer {
     text-align: center;
     font-size: 2em;
     margin-bottom: 0.5em;
+    text-decoration: underline;
 }
 
 .fix-margin-right{
