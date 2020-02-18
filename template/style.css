@@ -101,11 +101,13 @@ footer {
 }
 
 .bg-color-1 {
-    background: white;
+    background: black;
+    color: white;
 }
 
 .bg-color-2 {
-    background:white;
+    background: black;
+    color: white;
 }
 
 .image-name {
