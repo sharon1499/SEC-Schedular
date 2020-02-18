@@ -113,7 +113,7 @@ footer {
 .image-name {
     text-align: center;
     padding: 1.5em;
-    background-color: #6495ED;
+    background-color: #40E0D0;
     color: white;
     font-size: 1.4em;
 }
@@ -153,12 +153,12 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffaaa0; 
+  background: #40E0D0; 
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6495ED; 
+  background: black; 
 }
 
 .student-faculty-others {
