@@ -65,7 +65,7 @@ html {
 }
 
 .btn-color {
-    background-color: #40E0D0;
+    background-color: rgb(175, 209, 206);
     color: white;
 }
 
@@ -160,16 +160,18 @@ footer {
 }
 
 .student-faculty-others {
-    border: 2px solid  #6495ED;
+    border: 2px solid  #40E0D0;
     border-radius: 5px;
-    background:#6495ED;
+    background:#40E0D0;
+    color: black;
     padding: 4em;
 }
 
 .student-faculty{
-    border: 2px solid #ffaaa0;
+    border: 2px solid #40E0D0;
     border-radius: 5px;
-    background:#ffaaa0;
+    background:#40E0D0;
+    color: black;
     padding: 4em;
 }
 
