@@ -36,6 +36,7 @@
 <?php page_content();?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
    <footer> 
    <div class="container navbar-fixed-bottom">
    <div class="row">
@@ -50,5 +51,4 @@
     </div>
 
     </footer>
-  </body>
 </html>
