@@ -145,10 +145,11 @@ footer {
 
 ::-webkit-scrollbar {
   width: 18px;
+  background: #484848;
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px lightblue; 
   /*border-radius: 10px;*/
 }
 
