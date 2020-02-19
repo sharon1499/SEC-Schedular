@@ -168,6 +168,7 @@ footer {
     background:#40E0D0;
     color: black;
     padding: 4em;
+    box-shadow: 4px 4px 4px;
 }
 
 .student-faculty{
@@ -176,6 +177,7 @@ footer {
     background:#40E0D0;
     color: black;
     padding: 4em;
+    box-shadow: 4px 4px 4px;
 }
 
 .title-info{
