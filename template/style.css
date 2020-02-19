@@ -1,5 +1,5 @@
 body {
-    background-color: #D3D3D3;
+    background: linear-gradient(to bottom, #00ffcc 0%, #000066 100%);
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     height: 100%;
     margin-bottom: 40rem;
@@ -29,7 +29,7 @@ html {
 }
 
 .bg-navbar-color {
-    background-color: #484848;
+    background-color: #000066;
 }
 
 .contact-image {
