@@ -243,9 +243,13 @@ footer {
 
 .contactForm{
     background: #fff7ff;
+    color: black;
     width: 50%;
     border: 1px solid black;
     border-radius: 0px;
+    margin-bottom: 20em;
+    margin-top: 5em;
+    padding: 4em;
 }
 .form-group
 {
