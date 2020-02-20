@@ -157,7 +157,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff0066; 
+  background: #000066; 
   border-radius: 10px;
 }
 
