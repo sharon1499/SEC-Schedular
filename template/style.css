@@ -220,3 +220,8 @@ footer {
         display: none;
     }
 }
+
+.modal-element{
+    padding-right: 30rem;
+    display: block;
+}
