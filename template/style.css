@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #00ffcc 0%, #000066 100%);
+    background: linear-gradient(to left, #ff0066 0%, #000066 100%);
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     height: 100%;
     margin-bottom: 40rem;
@@ -29,7 +29,7 @@ html {
 }
 
 .bg-navbar-color {
-    background-color: #000066;
+    background: linear-gradient(to top, #ff0066 0%, #000066 100%);
 }
 
 .contact-image {
@@ -42,7 +42,9 @@ html {
     padding-left: 8em;
     padding-top: 11em;
     color: white;
-    margin-top: 6em;
+    /*margin-top: 6em;*/
+    border: 7px solid white;
+    border-radius: 8px;
 }
 
 .campus-header {
@@ -65,7 +67,7 @@ html {
 }
 
 .btn-color {
-    background-color: #40E0D0;
+    background: linear-gradient(to top right, #ff0066 0%, #000066 100%);
     color: white;
 }
 
@@ -101,7 +103,7 @@ footer {
 }
 
 .bg-color-1 {
-    background: black;
+    background: linear-gradient(to top right, #ff0066 0%, #000066 100%);
     color: white;
 }
 
@@ -138,7 +140,7 @@ footer {
 .title-section {
     font-size: 2em;
     padding: 4.5em;
-    color: black;
+    color:white;
     text-align: center;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
@@ -163,21 +165,21 @@ footer {
 }
 
 .student-faculty-others {
-    border: 2px solid  #40E0D0;
+    border: 6px solid  #000066;
     border-radius: 5px;
-    background:#40E0D0;
+    background: white;
     color: black;
     padding: 4em;
-    box-shadow: 4px 4px 4px;
+    box-shadow: 4px 5px 12px;
 }
 
 .student-faculty{
-    border: 2px solid #40E0D0;
+    border: 6px solid #ff0066;
     border-radius: 5px;
-    background:#40E0D0;
+    background: white;
     color: black;
     padding: 4em;
-    box-shadow: 4px 4px 4px;
+    box-shadow: 4px 5px 12px;
 }
 
 .title-info{
