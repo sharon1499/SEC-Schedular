@@ -36,11 +36,19 @@ body {
 }
 
 .contactForm{
-            background: #e7b0d3;
-            width: 50%;
-            border: 2px solid black;
-        }
+    background: #fff7ff;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0px;
+}
 .form-group
 {
     padding-top: 10px;
+}
+.form-control
+{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    
 }
