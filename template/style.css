@@ -2,13 +2,13 @@ body {
     background: linear-gradient(to left, #ff0066 0%, #000066 100%);
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     height: 100%;
-    margin-bottom: 40rem;
+    /*margin-bottom: 40rem;*/
     color: white;
 }
 
 html {
     height: 100%;
-    margin-bottom: 40rem;
+    /*margin-bottom: 40rem;*/
 }
 
 .building-padding{
@@ -225,4 +225,8 @@ footer {
 .modal-elements{
     padding-right: 30rem;
     display: block;
+}
+
+.fix-margin-bottom-hompage{
+    margin-bottom: 20rem;
 }
