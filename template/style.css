@@ -77,9 +77,9 @@ html {
 }
 
 footer {
-	background-color: #484848;
+	background-color: black;
 	color: white;
-	position: fixed;
+	position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -115,7 +115,7 @@ footer {
 .image-name {
     text-align: center;
     padding: 1.5em;
-    background-color: #40E0D0;
+    background-color: black;
     color: white;
     font-size: 1.4em;
 }
@@ -130,7 +130,7 @@ footer {
 }
 
 .navbar-fixed-bottom {
-    padding: 1em;
+    padding: 2em;
 }
 
 .contact-info-header-text {
