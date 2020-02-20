@@ -234,3 +234,9 @@ footer {
 .margin-bottom-floor-page {
     margin-bottom: 20rem;
 }
+
+.icon-name {
+    vertical-align: -0.3em;
+    color: white;
+    font-size: 2em;
+}

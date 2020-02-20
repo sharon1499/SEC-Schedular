@@ -21,7 +21,11 @@
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
     <title><?php site_name(); ?></title>
   <nav class="navbar navbar-expand-lg navbar-light bg-navbar-color">
-  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="calendarv2.svg" height="70" width="70"/></a>
+  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="calendarv2.svg" height="70" width="70"/> 
+  <span class="icon-name">
+    <strong>Schedui</strong>
+    </span>
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
