@@ -36,7 +36,11 @@ body {
 }
 
 .contactForm{
-    background-color: rgb(187, 207, 233);
-    padding: 10px;
-    width: 490px;
+            background: #e7b0d3;
+            width: 50%;
+            border: 2px solid black;
+        }
+.form-group
+{
+    padding-top: 10px;
 }
