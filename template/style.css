@@ -295,3 +295,7 @@ footer {
 .building-margin-bottom{
     margin-bottom: 10em;
 }
+
+.info-header-size{
+    height: 30em;
+}
