@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
-    <title><?php site_name(); ?></title>
+    <title><img src="discussion.svg" height="70" width="70"/><?php site_name(); ?></title>
     </head>
   <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color" data-spy="affix" data-offset-top="197">
-  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="calendarv2.svg" height="70" width="70"/> 
+  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="discussion.svg" height="70" width="70"/> 
   <span class="icon-name">
-    <strong>Schedui</strong>
+    <strong>eSpace</strong>
     </span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
