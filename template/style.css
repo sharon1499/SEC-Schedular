@@ -54,7 +54,7 @@ html {
     text-decoration: underline;
     line-height: 2em;
     font-family: Niagara Engraved;
-    font-size: 4.5em;
+    font-size: 7.5em;
 }
 
 .header-image {
@@ -72,8 +72,9 @@ html {
 
 .btn-color {
     /*background: linear-gradient(to top right, #ff0066 0%, #000066 100%);*/
-    color: white;
-    background: darkred;
+    color: black;
+    background: white;
+    font-weight: bolder;
 }
 
 .text-edit {
