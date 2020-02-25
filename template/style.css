@@ -96,7 +96,7 @@ footer {
 }
 
 .image-space {
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 .button-format {
@@ -149,8 +149,8 @@ footer {
 
 .title-section {
     font-size: 2em;
-    padding: 4.5em;
-    color:white;
+    padding: 4.5em 0 0;
+    color: black;
     text-align: center;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
@@ -279,4 +279,12 @@ footer {
 
 .rounded-images {
     border-radius: 50%;
+}
+
+.home-building-header {
+    font-size: 2em;
+}
+
+.home-building-body-text {
+    font-size: 1.2em;
 }
