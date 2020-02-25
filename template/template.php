@@ -21,6 +21,7 @@
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
     <title><?php site_name(); ?></title>
     </head>
+<div class="home-header">
   <nav class="navbar navbar-expand-lg navbar-light bg-navbar-color">
   <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="calendarv2.svg" height="70" width="70"/> 
   <span class="icon-name">
@@ -36,6 +37,7 @@
     </ul>
   </div>
 </nav>
+</div>
 <body>
 <?php page_content();?>
     <!-- Optional JavaScript -->

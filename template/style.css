@@ -40,7 +40,7 @@ html {
 
 .home-header {
     /*background: linear-gradient(to right, #000066 0%, #ffffff 100%);*/
-    background-image: url("contact-header.png");
+    background-image: url("/contact-header.png");
     height: 25rem;
     padding-left: 8em;
     padding-top: 11em;
