@@ -86,7 +86,7 @@ html {
 }
 
 footer {
-	background-color: black;
+	background-color: #000066;
 	color: white;
 	position: inherit;
     left: 0;
@@ -113,12 +113,12 @@ footer {
 
 .bg-color-1 {
     /*background: linear-gradient(to top right, #ff0066 0%, #000066 100%);*/
-    background: darkred;
+    background: #000066;
     color: white;
 }
 
 .bg-color-2 {
-    background: black;
+    background: #ff0000;
     color: white;
 }
 
@@ -290,4 +290,8 @@ footer {
 
 .home-building-body-text {
     font-size: 0.7em;
+}
+
+.building-margin-bottom{
+    margin-bottom: 10em;
 }
