@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
-    <title><img src="discussion.svg" height="70" width="70"/><?php site_name(); ?></title>
+    <title><?php site_name(); ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="discussion.svg" />
     </head>
   <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color" data-spy="affix" data-offset-top="197">
