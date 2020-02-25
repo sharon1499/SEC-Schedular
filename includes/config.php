@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Schedular',
+        'name' => 'eSpace',
         'pretty_uri' => false,
         'site_url' => 'https://sec-schedulars.herokuapp.com/',
         'nav_menu' => [
