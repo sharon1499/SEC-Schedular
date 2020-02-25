@@ -125,9 +125,10 @@ footer {
 .image-name {
     text-align: center;
     padding: 1.5em;
-    background-color: black;
-    color: white;
+    /*background-color: black;
+    color: white;*/
     font-size: 1.4em;
+    font-weight:bolder;
 }
 
 .name-fix {
