@@ -13,9 +13,9 @@
     <div class="col-sm image-space">
       <img src="HowardHall.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Howard Hall</div>
-      <select id="change">
+        <select id="change">
         <option value="">Select One</option>
-        <option value="this" data-target="#modal1" data-toggle="modal">This</option>
+        <option value="this">This</option>
         <option value="that">That</option>
         </select>
   
@@ -67,7 +67,7 @@
     </div>
   </div>
 </div>
-<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+<!--<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -171,4 +171,12 @@
       </div>
     </div>
   </div> 
-</div>
+</div>-->
+<script>
+ $('#change').change(function(){
+  //this is just getting the value that is selected
+  var title = $(this).val();
+  $('.modal-title').html(title);
+  $('.modal').modal('show');
+});
+</script>
