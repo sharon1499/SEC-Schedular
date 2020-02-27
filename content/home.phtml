@@ -14,7 +14,7 @@
       <img src="HowardHall.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Howard Hall</div>
       <div class="button-format">
-        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <select id="howard" class="btn btn-primary bg-color-1 btn-lg">
         <option value="">Floors</option>
         <option value="#modal1">Floor 1</option>
         </select>
@@ -24,7 +24,7 @@
       <img src="elizabethturnercenter.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Elizabeth Turner Center</div>
         <div class="button-format">
-            <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+            <select id="elizaFloors" class="btn btn-primary bg-color-1 btn-lg">
             <option value="">Floors</option>
             <option value="#modal2-1">Floor 1</option>
             <option value="#modal2-2">Floor 2</option>
@@ -35,10 +35,12 @@
       <img src="CCT.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name name-fix">Center for Commerce & Technology</div>
       <div class="button-format">
-        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <select id="cctFloors" class="btn btn-primary bg-color-1 btn-lg">
         <option value="">Floors</option>
         <option value="#modal3-1">Floor 1</option>
         <option value="#modal3-2">Floor 2</option>
+        <option value="#modal3-3">Floor 3</option>
+        <option value="#modal3-4">Floor 4</option>
         </select>
       </div>
     </div>
@@ -46,7 +48,7 @@
       <img src="RECcenter.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Student Recreation Center</div>
       <div class="button-format">
-        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <select id="recFloors" class="btn btn-primary bg-color-1 btn-lg">
         <option value="">Floors</option>
         <option value="#modal4-1">Floor 1</option>
         <option value="#modal4-2">Floor 2</option>
@@ -57,7 +59,7 @@
       <img src="davidsons.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Davidson Student Center</div>
       <div class="button-format">
-        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <select id="davidFloors" class="btn btn-primary bg-color-1 btn-lg">
         <option value="">Floors</option>
         <option value="#modal5-1">Floor 1</option>
         <option value="#modal5-2">Floor 2</option>
@@ -100,7 +102,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title change-font" id="modallabel">Elizabeth Turner Center - Floor</h5>
+        <h5 class="modal-title change-font" id="modallabel">Elizabeth Turner Center - Floor 1</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -123,7 +125,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title change-font" id="modallabel">Elizabeth Turner Center</h5>
+        <h5 class="modal-title change-font" id="modallabel">Elizabeth Turner Center - Floor 2</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -225,19 +227,58 @@
   </div> 
 </div>-->
 <script>
- $('#floors').change(function(){
+ $('#howard').change(function(){
   //this is just getting the value that is selected
   var title = $(this).val();
-  $('.modal-title').html(title);
+  //$('.modal-title').html(title);
   if ($(this).val() == "#modal1") {
         $('#modal1').modal('show');
       }
-  if ($(this).val() == "#modal2-1") {
+});
+</script>
+<script>
+$('#elizaFloors').change(function(){
+    if ($(this).val() == "#modal2-1") {
         $('#modal2-1').modal('show');
       }
-  if ($(this).val() == "#modal2-2") {
+    if ($(this).val() == "#modal2-2") {
         $('#modal2-2').modal('show');
       }
-  
+});
+</script>
+<script>
+$('#cctFloors').change(function(){
+    if ($(this).val() == "#modal3-1") {
+        $('#modal3-1').modal('show');
+      }
+    if ($(this).val() == "#modal3-2") {
+        $('#modal3-2').modal('show');
+      }
+    if ($(this).val() == "#modal3-3") {
+        $('#modal3-3').modal('show');
+      }
+    if ($(this).val() == "#modal3-4") {
+        $('#modal3-4').modal('show');
+      }
+});
+</script>
+<script>
+$('#recFloors').change(function(){
+    if ($(this).val() == "#modal4-1") {
+        $('#modal4-1').modal('show');
+      }
+    if ($(this).val() == "#modal4-2") {
+        $('#modal4-2').modal('show');
+      }
+});
+</script>
+<script>
+$('#davidFloors').change(function(){
+    if ($(this).val() == "#modal5-1") {
+        $('#modal5-1').modal('show');
+      }
+    if ($(this).val() == "#modal5-2") {
+        $('#modal5-2').modal('show');
+      }
 });
 </script>
