@@ -13,10 +13,11 @@
     <div class="col-sm image-space">
       <img src="HowardHall.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Howard Hall</div>
-        <select id="change">
-        <option value="">Select One</option>
-        <option value="this">This</option>
-        <option value="that">That</option>
+
+        <select id="floors">
+        <option value="">Floors</option>
+        <option value="modal1">Floor 1</option>
+        <option value="modal2">Floor 2</option>
         </select>
   
       <div class="button-format"><button type="button" class="btn btn-primary bg-color-1 btn-lg" data-toggle="modal" data-target="#modal1">Information</button></div>
@@ -67,7 +68,7 @@
     </div>
   </div>
 </div>
-<!--<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -90,7 +91,7 @@
     </div>
   </div>
 </div>
-<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+<!--<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -177,6 +178,9 @@
   //this is just getting the value that is selected
   var title = $(this).val();
   $('.modal-title').html(title);
-  $('#modal1').modal('show');
+  if ($(this).val() == "#modal1") {
+        $('#modal1').modal('show');
+      }
+  
 });
 </script>
