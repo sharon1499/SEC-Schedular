@@ -285,6 +285,9 @@ footer {
 
 .rounded-images {
     border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .home-building-header {
