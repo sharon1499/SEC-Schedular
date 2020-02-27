@@ -40,15 +40,7 @@
 </div>
 <body>
 <?php page_content();?>
-    <!-- Optional JavaScript -->
-    <script>
-    $('#change').change(function(){
-    //this is just getting the value that is selected
-    var title = $(this).val();
-    $('.modal-title').html(title);
-    $('.modal').modal('show');
-});
-</script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 </body>
    <footer> 
