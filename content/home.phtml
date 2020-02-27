@@ -13,39 +13,67 @@
     <div class="col-sm image-space">
       <img src="HowardHall.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Howard Hall</div>
-
-        <select id="floors">
+      <div class="button-format">
+        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
         <option value="">Floors</option>
         <option value="#modal1">Floor 1</option>
-        <option value="#modal2">Floor 2</option>
         </select>
-  
-      <div class="button-format"><button type="button" class="btn btn-primary bg-color-1 btn-lg" data-toggle="modal" data-target="#modal1">Information</button></div>
+      </div>
     </div>
     <div class="col-sm image-space">
       <img src="elizabethturnercenter.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Elizabeth Turner Center</div>
-      <div class="button-format"><button type="button" class="btn btn-primary bg-color-1 btn-lg" data-toggle="modal" data-target="#modal2">Information</button></div>
+        <div class="button-format">
+            <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+            <option value="">Floors</option>
+            <option value="#modal2-1">Floor 1</option>
+            <option value="#modal2-2">Floor 2</option>
+            </select>
+        </div>    
     </div>
     <div class="col-sm image-space">
       <img src="CCT.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name name-fix">Center for Commerce & Technology</div>
-      <div class="button-format"><button type="button" class="btn btn-primary bg-color-1 btn-lg" data-toggle="modal" data-target="#modal3">Information</button></div>
+      <div class="button-format">
+        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Floors</option>
+        <option value="#modal3-1">Floor 1</option>
+        <option value="#modal3-2">Floor 2</option>
+        </select>
+      </div>
     </div>
     <div class="col-sm image-space">
       <img src="RECcenter.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Student Recreation Center</div>
-      <div class="button-format"><button type="button" class="btn btn-primary bg-color-1 btn-lg" data-toggle="modal" data-target="#modal4">Information</button></div>
+      <div class="button-format">
+        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Floors</option>
+        <option value="#modal4-1">Floor 1</option>
+        <option value="#modal4-2">Floor 2</option>
+        </select>
+      </div>
     </div>
     <div class="col-sm image-space">
       <img src="davidsons.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Davidson Student Center</div>
-      <div class="button-format"><button type="button" class="btn btn-primary bg-color-1 btn-lg" data-toggle="modal" data-target="#modal5">Information</button></div>
+      <div class="button-format">
+        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Floors</option>
+        <option value="#modal5-1">Floor 1</option>
+        <option value="#modal5-2">Floor 2</option>
+        </select>
+      </div>
     </div>
     <div class="col-sm image-space">
       <img src="RECcenter.jpg" height=350 width=350 class="rounded-images"/>
       <div class="image-name">Undecided</div>
-      <div class="button-format"><button type="button" class="btn btn-primary bg-color-1 btn-lg" data-toggle="modal" data-target="#modal6">Information</button></div>
+      <div class="button-format">
+        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Floors</option>
+        <option value="#modal6-1">Floor 1</option>
+        <option value="#modal6-1">Floor 2</option>
+        </select>
+      </div>
     </div>
   </div>
   </div>
@@ -60,7 +88,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <h3 class="mt-5"> Location Adress:</h3>
+        <h3 class="mt-5"> Currently Unavailable</h3>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
@@ -68,7 +96,30 @@
     </div>
   </div>
 </div>
-<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+<div class="modal fade" id="modal2-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Elizabeth Turner Center - Floor</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="1st Floor.jpg" height="470" width="470" data-toggle="modal" data-target="#modal2-1"/>
+        <h3 class="mt-5"> Location Adress:</h3>
+        <p><a href="https://www.google.com/maps/place/Elizabeth+Bradley+Turner+Center/@32.498867,-84.9466747,17z/data=!3m1!4b1!4m5!3m4!1s0x888ccccbee200869:0xfb9e7309d6fb085e!8m2!3d32.498867!4d-84.944486">
+        Elizabeth Bradley Turner Center<br>
+        4225 University Ave<br>
+       Columbus, GA 31907</a><br></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal2-2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -78,7 +129,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <img src="elizamap.JPG" height="470" width="470" data-toggle="modal" data-target="#modal2"/>
+        <img src="1st Floor.jpg" height="470" width="470" data-toggle="modal" data-target="#modal2-1"/>
         <h3 class="mt-5"> Location Adress:</h3>
         <p><a href="https://www.google.com/maps/place/Elizabeth+Bradley+Turner+Center/@32.498867,-84.9466747,17z/data=!3m1!4b1!4m5!3m4!1s0x888ccccbee200869:0xfb9e7309d6fb085e!8m2!3d32.498867!4d-84.944486">
         Elizabeth Bradley Turner Center<br>
@@ -181,8 +232,11 @@
   if ($(this).val() == "#modal1") {
         $('#modal1').modal('show');
       }
-  if ($(this).val() == "#modal2") {
-        $('#modal2').modal('show');
+  if ($(this).val() == "#modal2-1") {
+        $('#modal2-1').modal('show');
+      }
+  if ($(this).val() == "#modal2-2") {
+        $('#modal2-2').modal('show');
       }
   
 });
