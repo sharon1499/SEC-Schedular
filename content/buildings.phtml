@@ -1,27 +1,38 @@
-
-
-<img id="CCT" src="CCT.jpg" alt="Pic of CCT" height="300" width=400>
-<div id="modal1" class="modal" height="500" width="600">
-    <span class="close" onclick="document.getElementId('').style.display='none' "img01>x</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
+<div class="home-header">
+<h1 class=""> Buildings</h1>
+</div>
+<div class="container building-padding">
+  <div class="row">
+    <div class="col-sm image-space">
+      <img src="HowardHall.jpg" height=350 width=350/>
+      <div class="image-name">Howard Hall</div>
+      <div class="button-format"><button type="button" class="btn btn-secondary btn-lg" disabled>Unavailable</button></div>
+    </div>
+    <div class="col-sm image-space">
+      <img src="elizabethturnercenter.jpg" height=350 width=350/>
+      <div class="image-name">Elizabeth Turner Center</div>
+      <div class="button-format"><button type="button" class="btn btn-secondary btn-lg" disabled>Unavailable</button></div>
+    </div>
+    <div class="col-sm image-space">
+      <img src="CCT.jpg" height=350 width=350/>
+      <div class="image-name name-fix">Center for Commerce & Technology</div>
+      <div class="button-format"><button type="button" class="btn btn-secondary btn-lg" disabled>Unavailable</button></div>
+    </div>
+    <div class="col-sm image-space">
+      <img src="RECcenter.jpg" height=350 width=350/>
+      <div class="image-name">Student Recreation Center</div>
+      <div class="button-format fix-margin"><button type="button" class="btn btn-secondary btn-lg" disabled>Unavailable</button></div>
+    </div>
+    <div class="col-sm image-space">
+      <img src="davidsons.jpg" height=350 width=350/>
+      <div class="image-name">Davidson Student Center</div>
+      <div class="button-format fix-margin"><a href="https://sec-schedulars.herokuapp.com//?page=schedular"><button type="button" class="btn btn-success btn-lg">Available</button></a></div>
+    </div>
+    <div class="col-sm image-space">
+      <img src="RECcenter.jpg" height=350 width=350/>
+      <div class="image-name">Undecided</div>
+      <div class="button-format fix-margin"><button type="button" class="btn btn-secondary btn-lg" disabled>Unavailable</button></div>
+    </div>
+  </div>
 </div>
 
-
-<script>
-    var modal = document.getElementById("modal1");
-    //summon image
-    var img = document.getElementById("CCT");
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display ="block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-//closes modal
-
-
-
-
-</script>
