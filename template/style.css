@@ -1,6 +1,6 @@
 body {
     background: white;
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-family:"Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     /*height: 100%;*/
     /*margin-bottom: 40rem;*/
     color: black;
@@ -156,8 +156,8 @@ footer {
     padding: 4.5em 0 0;
     color: black;
     text-align: center;
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-}
+    font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: bold;
 
 ::-webkit-scrollbar {
   width: 18px;
