@@ -115,6 +115,9 @@ footer {
     /*background: linear-gradient(to top right, #ff0066 0%, #000066 100%);*/
     background: #000066;
     color: white;
+    padding-right: 3em;
+    padding-left: 3em;
+    font-size: 1.5em;
 }
 
 .bg-color-2 {
