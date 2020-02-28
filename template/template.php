@@ -23,7 +23,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="discussion.svg" />
     </head>
   <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color" data-spy="affix" data-offset-top="197">
-  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="discussion.svg" height="70" width="70"/> 
+  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag.svg" height="70" width="70"/> 
   <span class="icon-name">
     <strong>eSpace</strong>
     </span>
