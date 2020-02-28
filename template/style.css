@@ -313,5 +313,15 @@ footer {
 }
 #howardFloors , #elizaFloors, #cctFloors, #recFloors, #davidFloors, #floors {
     font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    color: #fffff;
+    color: #ffffff;
+}
+
+.res-title{
+    font-size: 1.2em;
+}
+
+.res-procedure{
+    /*padding: 3em;*/
+    font-size: 1.1em;
+    margin: 4em 0 4em 0;
 }
