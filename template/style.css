@@ -212,6 +212,7 @@ footer {
 .schedule-intro{
     line-height: 3.5em;
     margin-top: -4em;
+    display: block;
     text-align: center;
 }
 
