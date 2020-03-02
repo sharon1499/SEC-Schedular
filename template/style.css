@@ -1,24 +1,70 @@
 body {
-    background-color: white;
+    background: white;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    /*height: 100%;*/
+    /*margin-bottom: 40rem;*/
+    color: black;
+}
+
+html {
+    /*height: 100%;*/
+    /*margin-bottom: 40rem;*/
+    overflow-x: unset;
+}
+
+.building-padding{
+    padding-bottom: 10em;
+}
+
+.scroll-content {
+    height: 100%;
+}
+
+.item {
+    padding-right: 4em;
 }
 
 .nav-text-size {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 800;
     color: white;
 }
 
 .bg-navbar-color {
-    background-color: rgb(204, 0, 0);
+    /*background: linear-gradient(to bottom, #000066 0%, #ffffff 100%);*/
+    background: #000066;
+}
+
+.contact-image {
+    margin-left: 20em;
 }
 
 .home-header {
-    background-color: darkgray;
-    margin-top: -10px;
-    height: 24rem;
-    padding-left: 8em;
+    /*background: linear-gradient(to right, #000066 0%, #ffffff 100%);*/
+    background: linear-gradient(to bottom, #000066 0%, #ff0000 100%);
+    height: 40rem;
+    /*padding-left: 8em;*/
     padding-top: 8em;
-    color: black;
+    color: white;
+    /*margin-top: 6em;*/
+    /*border: 1px solid white;
+    border-radius: 8px;*/
+}
+
+.campus-header {
+    text-decoration: underline;
+    line-height: 2em;
+    font-family: Niagara Engraved;
+    font-size: 7.5em;
+}
+
+.header-image {
+    margin-left: 13em;
+}
+
+.copyright {
+    font-size: 0.3em;
+    margin-left: 74em;
 }
 
 .button-height {
@@ -26,15 +72,225 @@ body {
 }
 
 .btn-color {
-    background-color: rgb(204, 0, 0);
-    color: white;
+    /*background: linear-gradient(to top right, #ff0066 0%, #000066 100%);*/
+    color: black;
+    background: white;
+    font-weight: bolder;
+    margin-top: 2em;
 }
 
 .text-edit {
+    display: block;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+footer {
+	background-color: #000066;
+	color: white;
+	position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	overflow: hidden;
+}
+
+.image-space {
+    margin-top: 5em;
+}
+
+.button-format {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+    padding: 2em;
+}
+
+.button-format-2 {
+    margin-top: 1em;
+
+}
+
+.bg-color-1 {
+    /*background: linear-gradient(to top right, #ff0066 0%, #000066 100%);*/
+    background: #000066;
+    color: white;
+    padding-right: 3em;
+    padding-left: 3em;
+    font-size: 1.5em;
+}
+
+.bg-color-2 {
+    background: #ff0000;
+    color: white;
+}
+
+.image-name {
+    text-align: center;
+    padding: 1.5em;
+    /*background-color: black;
+    color: white;*/
+    font-size: 1.4em;
+    font-weight:bolder;
+}
+
+.name-fix {
+    line-height: 1.26em;
+    padding: 0.992em;
+}
+
+.fix-margin {
+    margin-bottom: 8em;
+}
+
+.navbar-fixed-bottom {
+    padding: 1em;
+}
+
+.contact-info-header-text {
+    font-size: 1.2em;
+}
+
+.title-section {
+    font-size: 2em;
+    padding: 4.5em 0 0;
+    color: black;
+    text-align: center;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+  background: white;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px darkblue; 
+  /*border-radius: 10px;*/
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+
+.student-faculty-others {
+    border-radius: 5px;
+    background: white;
+    color: black;
+    padding: 4em;
+    box-shadow: 4px 5px 12px;
+}
+
+.student-faculty{
+    border-radius: 5px;
+    background: white;
+    color: black;
+    padding: 4em;
+    box-shadow: 4px 5px 12px;
+}
+
+.title-info{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
     text-decoration: underline;
+}
+
+.fix-margin-right{
+    text-align: center;
+}
+
+.fix-margin-left{
+    text-align: center;
+}
+
+.schedule-intro{
+    line-height: 3.5em;
+    margin-top: -4em;
+    text-align: center;
+}
+
+.faculty-info{
+    display: block;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 320px){
+    .fixed-top{
+        position: inherit;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    .copyright{
+        display: none;
+    }
+}
+
+.modal-elements{
+    padding-right: 30rem;
     display: block;
 }
 
+.fix-margin-bottom-hompage{
+    margin-bottom: 20rem;
+}
+
+.margin-bottom-floor-page {
+    margin-bottom: 20rem;
+}
+
+.icon-name {
+    vertical-align: -0.3em;
+    color: white;
+    font-size: 2.5em;
+    /*text-decoration: underline;*/
+    font-family: Niagara Engraved;
+}
+
+.contactForm{
+    background: #fff7ff;
+    color: black;
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 0px;
+    margin-bottom: 20em;
+    margin-top: 5em;
+    padding: 4em;
+}
+.form-group
+{
+    padding-top: 10px;
+}
+.form-control
+{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+.rounded-images {
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+<<<<<<< HEAD
 .contactForm{
     background: #fff7ff;
     width: 50%;
@@ -51,4 +307,40 @@ body {
     border-bottom: 1px solid black;
     border-radius: 0px;
     
+=======
+.home-building-header {
+    font-size: 1.5em;
+}
+
+.home-building-body-text {
+    font-size: 0.7em;
+}
+
+.building-margin-bottom{
+    margin-bottom: 10em;
+}
+
+.info-header-size{
+    height: 30em;
+}
+
+.change-font {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+#howardFloors , #elizaFloors, #cctFloors, #recFloors, #davidFloors, #floors {
+    font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #ffffff;
+}
+
+.res-title{
+    font-size: 1.2em;
+}
+
+.res-procedure{
+    /*padding: 3em;*/
+    font-size: 1.1em;
+    margin: 4em 0 4em 0;
+>>>>>>> master
 }
