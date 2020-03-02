@@ -290,24 +290,6 @@ footer {
     display: block;
 }
 
-<<<<<<< HEAD
-.contactForm{
-    background: #fff7ff;
-    width: 50%;
-    border: 1px solid black;
-    border-radius: 0px;
-}
-.form-group
-{
-    padding-top: 10px;
-}
-.form-control
-{
-    border: none;
-    border-bottom: 1px solid black;
-    border-radius: 0px;
-    
-=======
 .home-building-header {
     font-size: 1.5em;
 }
@@ -342,5 +324,4 @@ footer {
     /*padding: 3em;*/
     font-size: 1.1em;
     margin: 4em 0 4em 0;
->>>>>>> master
 }
