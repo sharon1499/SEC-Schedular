@@ -23,7 +23,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="shimane-japan-flag-symbol.svg" alt="GroupSynch Logo"/>
     </head>
   <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color" data-spy="affix" data-offset-top="197">
-  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag-symbol.svg" height="70" width="70"/> 
+  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag-symbol.svg" height="70" width="70" alt="GroupSynch Logo" title="GroupSynch Logo"/> 
   <span class="icon-name">
     <strong>GroupSynch</strong>
     </span>
