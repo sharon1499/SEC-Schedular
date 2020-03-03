@@ -34,7 +34,7 @@
     <div class="col-sm-4 image-space">
       <img src="CCT.jpg" height=350 width=350 class="rounded-images" alt="CCT Building" title="This is CCT Building"/>
       <div class="image-name name-fix">Center for Commerce & Technology</div>
-      <div class="button-format">
+      <div class="button-format cct-button">
         <select id="cctFloors" class="btn btn-primary bg-color-1 btn-lg">
         <option value="">Options:</option>
         <option value="#modal3-1">Floor 1</option>
@@ -78,6 +78,42 @@
       </div>
     </div>
   </div>
+  <div class = "contactForm container">
+    <form class="form-horizontal" action="https://formspree.io/xayjlzyr" method="POST">
+        <div class = "form-group">
+            <label class = "control-label col-sm-2">Name:</label>
+            <div class= "col-sm-7">
+                <input class ="form-control" id ="name" name="name" type = "text">
+            </div>
+        </div>
+        <div class = "form-group">
+            <label class = "control-label col-sm-2">Email:</label>
+            <div class= "col-sm-7">
+                <input class ="form-control" id ="email" type = "email" name="_replyto" required>
+            </div>
+        </div>
+        <div class = "form-group">
+            <label class = "control-label col-sm-3">Message:</label>
+                <div class= "col-sm-7">
+                    <textarea class = "form-control" id = "message" name="message" rows="5"></textarea>
+                </div>
+            </div>
+        
+        <div class="form-group">        
+            <div class="col-sm-offset-5 col-sm-10">
+                <button type="submit" class="btn btn-primary btn-default" value="Send">Submit</button>
+                <input type="reset" value="Clear">
+            </div>
+        </div>        
+    </form>   
+
+</div>
+  <form action="https://formspree.io/xayjlzyr" method="POST">
+        <p>Name</p> <input type="text" name="name">
+        <p>Email</p> <input type="text" name="_replyto">
+        <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+        <input type="submit" value="Send"><input type="reset" value="Clear">
+  </form> 
   </div>
 </div>
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
@@ -93,7 +129,7 @@
         <h3 class="mt-5"> Currently Unavailable</h3>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -116,7 +152,7 @@
        Columbus, GA 31907</a><br></p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -139,7 +175,7 @@
        Columbus, GA 31907</a><br></p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -161,7 +197,7 @@
         Columbus, GA 31907<br>-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -183,7 +219,7 @@
         Columbus, GA 31907<br>-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -205,7 +241,7 @@
         Columbus, GA 31907<br>-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -227,7 +263,7 @@
         Columbus, GA 31907<br>-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -250,7 +286,7 @@
        Columbus, GA 31907<br>-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -273,7 +309,7 @@
        Columbus, GA 31907<br>-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -292,7 +328,7 @@
         <h3 class="mt-5"> Location Adress:</h3>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -312,7 +348,7 @@
         <h3 class="mt-5"> Location Adress:</h3>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -330,11 +366,12 @@
         <h3 class="mt-5"> Currently Unavailable</h3>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-color-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
       </div>
     </div>
-  </div> 
+  </div>
 </div>
+
 <script>
  $('#howardFloors').change(function(){
   if ($(this).val() == "#modal1") {

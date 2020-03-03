@@ -1,6 +1,6 @@
 body {
     background: white;
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-family: 'Caladea', serif;
     /*height: 100%;*/
     /*margin-bottom: 40rem;*/
     color: black;
@@ -54,8 +54,12 @@ html {
 .campus-header {
     text-decoration: underline;
     line-height: 2em;
-    font-family: Niagara Engraved;
-    font-size: 7.5em;
+    /*font-family: Niagara Engraved;*/
+    font-size: 5.5em;
+}
+
+.cct-button{
+    padding: 0.6em;
 }
 
 .header-image {
@@ -136,7 +140,8 @@ footer {
 
 .name-fix {
     line-height: 1.26em;
-    padding: 0.992em;
+    /*padding: 0.992em;*/
+    margin-bottom: -1em;
 }
 
 .fix-margin {
@@ -156,7 +161,7 @@ footer {
     padding: 4.5em 0 0;
     color: black;
     text-align: center;
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    /*font-family: New Century Schoolbook, TeX Gyre Schola, serif;*/
 }
 
 ::-webkit-scrollbar {
@@ -250,9 +255,9 @@ footer {
 .icon-name {
     vertical-align: -0.3em;
     color: white;
-    font-size: 2.5em;
+    font-size: 1.5em;
     /*text-decoration: underline;*/
-    font-family: Niagara Engraved;
+    /*font-family: Niagara Engraved;*/
 }
 
 .contactForm{
@@ -312,7 +317,7 @@ footer {
 
 }
 #howardFloors , #elizaFloors, #cctFloors, #recFloors, #davidFloors, #floors {
-    font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    /*font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
     color: #ffffff;
 }
 
