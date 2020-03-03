@@ -1,15 +1,14 @@
 <?php
-if(!empty($_POST["send"])) {
-	$name = $_POST["name"];
-	$email = $_POST["email"];
-	$content = $_POST["message"];
+if(isset( $_POST['name']))
+$name = $_POST['name'];
+if(isset( $_POST['email']))
+$email = $_POST['email'];
+if(isset( $_POST['message']))
+$message = $_POST['message'];
 
-	$toEmail = "ichigo1499132@gmail.com";
-	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
-	if(mail($toEmail, $content, $mailHeaders)) {
-	    $message = "Your contact information is received successfully.";
-	    $type = "success";
-	}
-}
-require_once "functions.php";
+$content="From: $name \n Email: $email \n Message: $message";
+$recipient = "ichigo1499132@gmail.com";
+$mailheader = "From: $email \r\n";
+mail($recipient, $subject, $content, $mailheader) or die("Error!");
+echo "Email sent!";
 ?>
