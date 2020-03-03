@@ -140,7 +140,8 @@ footer {
 
 .name-fix {
     line-height: 1.26em;
-    padding: 0.992em;
+    /*padding: 0.992em;*/
+    margin-bottom: -1em;
 }
 
 .fix-margin {
