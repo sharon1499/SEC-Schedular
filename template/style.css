@@ -58,6 +58,10 @@ html {
     font-size: 5.5em;
 }
 
+.cct-button{
+    padding: 0.6em;
+}
+
 .header-image {
     margin-left: 13em;
 }
