@@ -78,6 +78,36 @@
       </div>
     </div>
   </div>
+  <div class = "contactForm container">
+    <form class="form-horizontal" action="https://formspree.io/xayjlzyr" method="POST">
+        <div class = "form-group">
+            <label class = "control-label col-sm-2">Name:</label>
+            <div class= "col-sm-7">
+                <input class ="form-control" id ="name" name="name" type = "text">
+            </div>
+        </div>
+        <div class = "form-group">
+            <label class = "control-label col-sm-2">Email:</label>
+            <div class= "col-sm-7">
+                <input class ="form-control" id ="email" type = "email" name="_replyto" required>
+            </div>
+        </div>
+        <div class = "form-group">
+            <label class = "control-label col-sm-3">Message:</label>
+                <div class= "col-sm-7">
+                    <textarea class = "form-control" id = "message" name="message" rows="5"></textarea>
+                </div>
+            </div>
+        
+        <div class="form-group">        
+            <div class="col-sm-offset-5 col-sm-10">
+                <button type="submit" class="btn btn-primary btn-default" value="Send">Submit</button>
+                <input type="reset" value="Clear">
+            </div>
+        </div>        
+    </form>   
+
+</div>
   <form action="https://formspree.io/xayjlzyr" method="POST">
         <p>Name</p> <input type="text" name="name">
         <p>Email</p> <input type="text" name="_replyto">
