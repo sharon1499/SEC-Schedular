@@ -336,9 +336,22 @@
   </div>
 </div>
 <form action="https://formspree.io/xayjlzyr" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
+  <label>
+    Name:
+    <input type="text" name="name">
+  </label>
+  <label>
+    Email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
 </form>
 <script>
  $('#howard').change(function(){
