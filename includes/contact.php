@@ -1,11 +1,16 @@
-<?php 
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $formcontent="From: $name \n Message: $message";
-    $recipient = "ichigo1499132@gmail.com";
-    $subject = "Contact Form";
-    $mailheader = "From: $email \r\n";
-    mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-    echo "Thank You!";
+
+<?php
+	
+	$userName = $_POST['name'];
+	$userEmail = $_POST['email'];
+	$userMessage = $_POST['message'];
+	$to = "ichigo1499132@gmail.com";
+	$subject = "Email from GroupSynch";
+	$body = "Information Submitted:";
+
+	$body .= "\r\n Name: " . $userName;
+	$body .= "\r\n Email: " . $userEmail;
+	$body .= "\r\n Message: " . $userMessage;
+
+	mail($to, $subject, $body);
 ?>
