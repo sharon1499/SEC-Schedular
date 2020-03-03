@@ -1,16 +1,15 @@
-
 <?php
-	
-	$userName = $_POST['name'];
-	$userEmail = $_POST['email'];
-	$userMessage = $_POST['message'];
-	$to = "ichigo1499132@gmail.com";
-	$subject = "Email from GroupSynch";
-	$body = "Information Submitted:";
+if(!empty($_POST["send"])) {
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$content = $_POST["message"];
 
-	$body .= "\r\n Name: " . $userName;
-	$body .= "\r\n Email: " . $userEmail;
-	$body .= "\r\n Message: " . $userMessage;
-
-	mail($to, $subject, $body);
+	$toEmail = "ichigo1499132@gmail.com";
+	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
+	if(mail($toEmail, $content, $mailHeaders)) {
+	    $message = "Your contact information is received successfully.";
+	    $type = "success";
+	}
+}
+require_once "contact.php";
 ?>
