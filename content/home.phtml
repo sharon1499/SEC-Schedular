@@ -336,23 +336,12 @@
   </div>
 </div>
 <form action="https://formspree.io/xayjlzyr" method="POST">
-  <label>
-    Name:
-    <input type="text" name="name">
-  </label>
-  <label>
-    Email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
+        <p>Name</p> <input type="text" name="name">
+        <p>Email</p> <input type="text" name="_replyto">
+        <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+        <input type="submit" value="Send"><input type="reset" value="Clear">
+    </form> 
 
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
 <script>
  $('#howard').change(function(){
   if ($(this).val() == "#modal1") {
