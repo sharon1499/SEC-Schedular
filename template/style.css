@@ -41,8 +41,8 @@ html {
 
 .home-header {
 
-    background-image: url("/columbus_state.jpg");
-    background-repeat: repeat-x;
+    /*background-image: url("/columbus_state.jpg");
+    background-repeat: repeat-x; */
     height: 25rem;
     /*padding-left: 8em;*/
     padding-top: 8em;
