@@ -1,10 +1,15 @@
 <div class="home-header">
 <div class="schedule-intro">
+
+
   <span class="campus-header">Campus Schedular</span>
   <span class="text-edit">Try our simple cougar schedular<br>where simplicity is our key element.</span>
   <a href="https://sec-schedulars.herokuapp.com//?page=information" class="btn btn-color btn-lg active button-height" role="button" aria-pressed="true">Learn More</a>
 </div>
 </div>
+</div>
+
+
 <div class="container scroll-content">
   <div class="title-section">
   <span class="home-building-header"><strong>Explore our main buildings</strong></span><br>
@@ -15,68 +20,91 @@
       <div class="image-name">Howard Hall</div>
       <div class="button-format">
         <select id="howardFloors" class="btn btn-primary bg-color-1 btn-lg">
-        <option value="">Options:</option>
+        <option value="">Select Floor</option>
         <option value="#modal1">Floor 1</option>
         </select>
+        </div>   
+        <!-- End button-format div -->
       </div>
-    </div>
+      <!-- End col-sm-4 div -->
+
+
     <div class="col-sm-4 image-space">
       <img src="elizabethturnercenter.jpg" height=350 width=350 class="rounded-images" alt="Elizabeth Turner Center Building" title="This is Elizabeth Turner Center Building"/>
       <div class="image-name">Elizabeth Turner Center</div>
         <div class="button-format">
             <select id="elizaFloors" class="btn btn-primary bg-color-1 btn-lg">
-            <option value="">Options:</option>
+            <option value="">Select Floor</option>
             <option value="#modal2-1">Floor 1</option>
             <option value="#modal2-2">Floor 2</option>
             </select>
-        </div>    
-    </div>
+        </div>   
+        <!-- End button-format div -->
+      </div>
+      <!-- End col-sm-4 div -->
+
+
     <div class="col-sm-4 image-space">
       <img src="CCT.jpg" height=350 width=350 class="rounded-images" alt="CCT Building" title="This is CCT Building"/>
       <div class="image-name name-fix">Center for Commerce & Technology</div>
       <div class="button-format cct-button">
         <select id="cctFloors" class="btn btn-primary bg-color-1 btn-lg">
-        <option value="">Options:</option>
+        <option value="">Select Floor</option>
         <option value="#modal3-1">Floor 1</option>
         <option value="#modal3-2">Floor 2</option>
         <option value="#modal3-3">Floor 3</option>
         <option value="#modal3-4">Floor 4</option>
         </select>
+        </div>   
+        <!-- End button-format div -->
       </div>
-    </div>
+      <!-- End col-sm-4 div -->
+
     <div class="col-sm-4 image-space">
       <img src="RECcenter.jpg" height=350 width=350 class="rounded-images" alt="REC center Building" title="This is REC center Building"/>
       <div class="image-name">Student Recreation Center</div>
       <div class="button-format">
         <select id="recFloors" class="btn btn-primary bg-color-1 btn-lg">
-        <option value="">Options:</option>
+        <option value="">Select Floor</option>
         <option value="#modal4-1">Floor 1</option>
         <option value="#modal4-2">Floor 2</option>
         </select>
+        </div>   
+        <!-- End button-format div -->
       </div>
-    </div>
+      <!-- End col-sm-4 div -->
+
+
+
     <div class="col-sm-4 image-space">
       <img src="davidsons.jpg" height=350 width=350 class="rounded-images" alt="Davidson Building" title="This is Davidson Building"/>
       <div class="image-name">Davidson Student Center</div>
       <div class="button-format">
         <select id="davidFloors" class="btn btn-primary bg-color-1 btn-lg">
-        <option value="">Options:</option>
+        <option value="">Select Floor</option>
         <option value="#modal5-1">Floor 1</option>
         <option value="#modal5-2">Floor 2</option>
         </select>
+        </div>   
+        <!-- End button-format div -->
       </div>
-    </div>
+      <!-- End col-sm-4 div -->
+
+
     <div class="col-sm-4 image-space">
       <img src="RECcenter.jpg" height=350 width=350 class="rounded-images" alt="Undecided Building" title="This is Undecided Building"/>
       <div class="image-name">Undecided</div>
       <div class="button-format">
         <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
-        <option value="">Options:
+        <option value="">Select Floor</option>
         <option value="#modal6-1">Floor 1</option>
         <option value="#modal6-1">Floor 2</option>
         </select>
+        </div>   
+        <!-- End button-format div -->
       </div>
-    </div>
+      <!-- End col-sm-4 div -->
+
   </div>
   <div class="title-section px-0 py-0">
   <span class="home-building-header"><strong>For more Information</strong></span><br>
@@ -367,24 +395,6 @@
     </div>
   </div>
 </div>
-<div class="modal fade" id="modal6-2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title change-font" id="modallabel">Undecided</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h3 class="mt-5"> Currently Unavailable</h3>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <script>
  $('#howardFloors').change(function(){
@@ -436,16 +446,6 @@ $('#davidFloors').change(function(){
       }
     if ($(this).val() == "#modal5-2") {
         $('#modal5-2').modal('show');
-      }
-});
-</script>
-<script>
-$('#floors').change(function(){
-    if ($(this).val() == "#modal6-1") {
-        $('#modal6-1').modal('show');
-      }
-    if ($(this).val() == "#modal6-2") {
-        $('#modal6-2').modal('show');
       }
 });
 </script>
