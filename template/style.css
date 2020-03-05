@@ -42,6 +42,7 @@ html {
 .home-header {
 
     background-image: url("columbus_state.jpg");
+    background-color: #f7f5f3;
     height: 40rem;
     /*padding-left: 8em;*/
     padding-top: 8em;
