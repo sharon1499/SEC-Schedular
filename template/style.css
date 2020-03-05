@@ -48,14 +48,14 @@ html {
     height: 25rem;
     /*padding-left: 8em;*/
     padding-top: 8em;
-    color:red;
+    color: #000066;
     /*margin-top: 6em;*/
     /*border: 1px solid white;
     border-radius: 8px;*/
 }
 
 .campus-header {
-    text-decoration: underline;
+   /* text-decoration: underline; */
     line-height: 2em;
     /*font-family: Niagara Engraved;*/
     font-size: 5.5em;
@@ -80,8 +80,8 @@ html {
 
 .btn-color {
     /*background: linear-gradient(to top right, #ff0066 0%, #000066 100%);*/
-    color: black;
-    background: white;
+    color: white;
+    background: #000066
     font-weight: bolder;
     margin-top: 2em;
 }
