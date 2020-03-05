@@ -331,3 +331,7 @@ footer {
     font-size: 1.1em;
     margin: 4em 0 4em 0;
 }
+
+.d-block w-fluid{
+    object-fit: cover;
+}
