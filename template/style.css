@@ -1,6 +1,8 @@
 body {
     background: white;
+
     font-family: 'Caladea', serif;
+
     /*height: 100%;*/
     /*margin-bottom: 40rem;*/
     color: black;
@@ -164,8 +166,10 @@ footer {
     padding: 4.5em 0 0;
     color: black;
     text-align: center;
+
     /*font-family: New Century Schoolbook, TeX Gyre Schola, serif;*/
 }
+
 
 ::-webkit-scrollbar {
   width: 18px;
@@ -220,6 +224,7 @@ footer {
 .schedule-intro{
     line-height: 3.5em;
     margin-top: -4em;
+    display: block;
     text-align: center;
 }
 
@@ -320,6 +325,7 @@ footer {
 
 }
 #howardFloors , #elizaFloors, #cctFloors, #recFloors, #davidFloors, #floors {
+
     /*font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
     color: #ffffff;
 }
@@ -335,3 +341,4 @@ footer {
 }
 
 d-block w-fluid{}
+
