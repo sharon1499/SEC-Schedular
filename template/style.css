@@ -44,13 +44,13 @@ html {
 .home-header {
 
     background-image: url("/csu-clock-tower-logo.jpg");
-    background-repeat: repeat-x;
-
-    background: #fff7ff;
+    background-repeat: no-repeat;
+    background-size: 101.3rem 28rem;
+    /*background: #fff7ff;*/
     height: 25rem;
     /*padding-left: 8em;*/
     padding-top: 8em;
-    color: #000066;
+    color: white;
     /*margin-top: 6em;*/
     /*border: 1px solid white;
     border-radius: 8px;*/
