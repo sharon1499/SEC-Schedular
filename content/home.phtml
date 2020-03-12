@@ -311,7 +311,7 @@
       <div class="modal-body">
       <div class="row">
         <div class="col-8">
-      <img src="Dav-floor2-add-on.jpg" height="475" width="470" data-toggle="modal" data-target="#modal5-2" usemap="#image-map"/></div>
+      <img src="Dav-floor2-add-on.jpg" height="475" width="470" data-toggle="modal" data-target="#modal5-2" usemap="#image-map" class="map-area"/></div>
       <div class="col-4">
          <div>something</div>
          </div>
@@ -404,5 +404,10 @@ $('#davidFloors').change(function(){
     if ($(this).val() == "#modal5-2") {
         $('#modal5-2').modal('show');
       }
+});
+</script>
+<script>
+$(function() {
+    $('.map-area').maphilight();
 });
 </script>
