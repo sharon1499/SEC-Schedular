@@ -15,7 +15,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 <script>
 $(function() {
-    $('.map-area').maphilight({fillColor: '01111'});
+    $('.map-area').maphilight({fillColor: '011111'});
 });
 </script>
 
