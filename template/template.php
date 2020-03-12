@@ -28,7 +28,7 @@ $(function() {
     <title><?php site_name(); ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="shimane-japan-flag-symbol.svg" alt="GroupSynch Logo"/>
     </head>
-  <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color" data-spy="affix" data-offset-top="197">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color fixed-top" data-spy="affix" data-offset-top="197">
   <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag-symbol.svg" height="70" width="70" alt="GroupSynch Logo" title="This is our website logo"/> 
   <span class="icon-name">
     <strong>GroupSynch</strong>
@@ -48,6 +48,17 @@ $(function() {
 <?php page_content();?>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+    $(document).ready(function(){
+      $(window).scroll(function() { // check if scroll event happened
+        if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+          $(".fixed-top").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+        } else {
+          $(".fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+        }
+      });
+    });
+</script>
 </body>
    <footer> 
    <div class="container navbar-fixed-bottom">
