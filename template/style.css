@@ -34,7 +34,8 @@ html {
 
 .bg-navbar-color {
     /*background: linear-gradient(to bottom, #000066 0%, #ffffff 100%);*/
-    background: #000066;
+    background: white;
+    color: #000066;
 }
 
 .contact-image {
@@ -43,14 +44,15 @@ html {
 
 .home-header {
 
-    background-image: url("/csu-clock-tower-logo.jpg");
-    background-repeat: no-repeat;
-    background-size: 101.3rem 28rem;
+    /*background-image: url("/csu-clock-tower-logo.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 101.3rem 28rem;*/
+    background: white;
     /*background: #fff7ff;*/
     height: 25rem;
     /*padding-left: 8em;*/
     padding-top: 8em;
-    color: white;
+    color: #000066;
     /*margin-top: 6em;*/
     /*border: 1px solid white;
     border-radius: 8px;*/
