@@ -26,10 +26,10 @@ $(function() {
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
     <title><?php site_name(); ?></title>
-    <link rel="shortcut icon" class="icon-img" type="image/x-icon" href="shimane-japan-flag-symbol.svg" alt="GroupSynch Logo"/>
+    <link rel="shortcut icon" type="image/x-icon" href="shimane-japan-flag-symbol.svg" alt="GroupSynch Logo"/>
     </head>
   <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color fixed-top" data-spy="affix" data-offset-top="197">
-  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag-symbol.svg" height="70" width="70" alt="GroupSynch Logo" title="This is our website logo"/> 
+  <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag-symbol.svg" class="icon-img" height="70" width="70" alt="GroupSynch Logo" title="This is our website logo"/> 
   <span class="icon-name">
     <strong>GroupSynch</strong>
     </span>
