@@ -26,7 +26,7 @@ $(function() {
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
     <title><?php site_name(); ?></title>
-    <link rel="shortcut icon" type="image/x-icon" href="shimane-japan-flag-symbol.svg" alt="GroupSynch Logo"/>
+    <link rel="shortcut icon" class="icon-img" type="image/x-icon" href="shimane-japan-flag-symbol.svg" alt="GroupSynch Logo"/>
     </head>
   <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color fixed-top" data-spy="affix" data-offset-top="197">
   <a class="navbar-brand" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag-symbol.svg" height="70" width="70" alt="GroupSynch Logo" title="This is our website logo"/> 
@@ -51,13 +51,16 @@ $(function() {
     <script>
     $(document).ready(function(){
       $(window).scroll(function() { // check if scroll event happened
-        if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+        if ($(document).scrollTop() > 70) { // check if user scrolled more than 50 from top of the browser window
           $(".fixed-top").css("background-color", "#000066"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
           $(".fixed-top").css("color", "#ffffff");
           $(".nav-text-size").css("color", "#ffffff");
+          $(".icon-name").css("color", "#ffffff");
+
         } else {
           $(".fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
           $(".fixed-top").css("color", "#000066");
+          $(".icon-img").css("background-color", "#000066");
         }
       });
     });
