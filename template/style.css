@@ -15,6 +15,13 @@ body {
     margin-top: 10em;
 }
 
+.brief-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    line-height: 13em;
+}
+
 .img-center{
     display: block;
 }
