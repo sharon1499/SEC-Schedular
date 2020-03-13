@@ -52,7 +52,7 @@ $(function() {
     $(document).ready(function(){
       $(window).scroll(function() { // check if scroll event happened
         if ($(document).scrollTop() > 70) { // check if user scrolled more than 50 from top of the browser window
-          $(".fixed-top").css("background-color", "#000066"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+          $(".fixed-top").css("background-color", "#000066"); 
           $(".fixed-top").css("color", "#ffffff");
           $(".nav-text-size").css("color", "#ffffff");
           $(".icon-name").css("color", "#ffffff");
@@ -60,6 +60,8 @@ $(function() {
         } else {
           $(".fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
           $(".fixed-top").css("color", "#000066");
+          $(".nav-text-size").css("color", "#000066");
+          $(".icon-name").css("color", "#000066");
           $(".icon-img").css("background-color", "#000066");
         }
       });
