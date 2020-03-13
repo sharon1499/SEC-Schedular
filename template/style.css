@@ -23,7 +23,7 @@ html {
 }
 
 .item {
-    padding-right: 4em;
+    padding-right: 3em;
 }
 
 .nav-text-size {
@@ -40,6 +40,10 @@ html {
 
 .contact-image {
     margin-left: 20em;
+}
+
+.brand-padding{
+    padding-left: 4em;
 }
 
 .home-header {
