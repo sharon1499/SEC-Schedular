@@ -280,12 +280,13 @@ footer {
 }
 .form-group span
 {
+    position: absolute;
     transition:all .2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     cursor: auto;
     font-size: 15px;
     color: rgb(0,132,255);
     transform-origin: 0px;
-    top: 11px;
+    top: 23px;
 }
 .form-control
 {
@@ -297,6 +298,11 @@ footer {
     height: 50px;
     font-size: 20px;
     background: none;    
+}
+.form-control:focus + span
+{
+    transform: translateY(-20px) scale(0.8);
+}
 }
 #formButton
 {
