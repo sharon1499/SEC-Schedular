@@ -96,6 +96,7 @@ function build_calendar($month, $year){
             $year = $dateComponents['year'];
             echo build_calendar($month, $year);
         ?>
+        <?php build_calendar($mont, $year);?>
       </div>
     </div>
   </div>
