@@ -10,7 +10,7 @@ function build_calendar($month, $year){
     $numberDays = date('t', $firstDayOfMonth);
 
     //Getting information abouth the first day of the month
-    $dateComponents = getdata($firstDayOfMonth);
+    $dateComponents = getdate($firstDayOfMonth);
 
     //Getting the name of this month
     $monthName = $dateComponents['month'];
