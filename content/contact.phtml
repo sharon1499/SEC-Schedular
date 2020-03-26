@@ -6,36 +6,32 @@
 
 
 <div class="title-section px-0 py-0">
-  <span class="home-building-header"><strong>For More Information</strong></span><br>
-  <span class="home-building-body-text">If you have any questions or suggestions, send a message
-    and fill out the contact form below:</span></div>
-  <div class = "contactForm container">
-    <form class="form-horizontal" action="https://formspree.io/xayjlzyr" method="POST">
-        <div class = "form-group">
-            <label class = "control-label col-sm-2">Name:</label>
-            <div class= "col-sm-7">
-                <input class ="form-control" id ="name" name="name" type = "text">
+    <span class="home-building-header"><strong>For More Information</strong></span><br>
+    <span class="home-building-body-text">If you have any questions or suggestions, send us a message!
+    We will respond as quickly as possible to help you.</span></div>
+    <div class = "contactForm">
+        <form action = "https://formspree.io/xayjlzyr" method = "POST">
+            <div class = "form-group">
+                <input class = "form-control" type = "text" id ="text" required>
+                <span>Your Name</span>
             </div>
-        </div>
-        <div class = "form-group">
-            <label class = "control-label col-sm-2">Email:</label>
-            <div class= "col-sm-7">
-                <input class ="form-control" id ="email" type = "email" name="_replyto" required>
+            <div class = "form-group">
+                <input class = "form-control" type = "" id = "" name ="_replyto" required>
+                <span>Your Email</span>
             </div>
-        </div>
-        <div class = "form-group">
-            <label class = "control-label col-sm-3">Message:</label>
-                <div class= "col-sm-7">
-                    <textarea class = "form-control" id = "message" name="message" rows="5"></textarea>
+            <div class = "form-group">
+                <textarea class = "form-control" id = "message" name = "message" rows = "5"></textarea>
+                <span> Your Message</span>
+            </div>
+            <div class="form-group">        
+                <div class="col-sm-offset-5 col-sm-10">
+                    <button type="submit" id ="formButton" value="Send">Submit</button>
+                    <input type="reset" value="Clear">
                 </div>
             </div>
-        
-        <div class="form-group">        
-            <div class="col-sm-offset-5 col-sm-10">
-                <button type="submit" class="btn btn-primary btn-default" value="Send">Submit</button>
-                <input type="reset" value="Clear">
-            </div>
-        </div>        
-    </form>   
-</div>
+
+
+        </form>
+
+    </div>
 </div>
