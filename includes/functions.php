@@ -63,6 +63,7 @@ function page_content()
         $path = getcwd() . '/' . config('content_path') . '/404.phtml';
     }
     echo file_get_contents($path);
+    echo build_calendar($month, $year);
 }
 
 
