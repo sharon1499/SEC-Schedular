@@ -278,6 +278,10 @@ footer {
     margin-top: 5em;
     padding: 4em;
 }
+.form-group
+{
+    position: relative;
+}
 .form-group span
 {
     position: absolute;
