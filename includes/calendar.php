@@ -32,7 +32,7 @@ function build_calendar($month, $year){
         $calendar.= "<th class='header'>$day</th>";
     }
 
-    $calendar = "</tr><tr>";
+    $calendar.= "</tr><tr>";
 
     //The variable $dayOfWeek makes sure there are only 7 columns on the table
     if($dayOfWeek > 0){
