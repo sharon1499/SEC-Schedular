@@ -252,6 +252,14 @@ footer {
     font-size: 1.5em;
 }
 
+polygon {
+	transition: .6s fill;
+	fill: #D3D3D3;
+}
+polygon:hover {
+	fill: #22aa22;
+}
+
 @media screen and (max-width: 320px){
     .fixed-top{
         position: inherit;
