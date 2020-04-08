@@ -7,6 +7,7 @@ var mongoose = require("mongoose");
 var port = 3000;
 
 app.use(bodyParser.json());
+app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ 
   extended: true
@@ -16,7 +17,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect("mongodb+srv://test:test@cluster0-gahtk.mongodb.net/test?retryWrites=true&w=majority");
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/index.html');
+res.sendFile(__dirname + '/form.html');
 });
 
 app.listen(port, () => {
