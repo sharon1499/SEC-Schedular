@@ -253,11 +253,12 @@ footer {
 }
 
 polygon {
-	transition: .6s fill;
-	fill: #D3D3D3;
+  stroke-width: 1;
+  stroke: red;
+  fill: transparent;
 }
 polygon:hover {
-	fill: #22aa22;
+  fill: blue;
 }
 
 @media screen and (max-width: 320px){
