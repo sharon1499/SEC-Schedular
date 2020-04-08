@@ -14,7 +14,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect("mongodb://localhost:27017/node-demo");
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/index.html');
+res.sendFile(__dirname + 'content/home.phtml');
 });
 
 app.listen(port, () => {
