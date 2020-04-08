@@ -1,20 +1,22 @@
-var express = require('express');
-var app = express();
-var port = process.env.PORT || 3000;
-
+var http = require('http');
+var path = require('path');
+const express = require("express");
 var bodyParser = require("body-parser");
+var app = express();
+var mongoose = require("mongoose");
+var port = 3000;
+
 app.use(bodyParser.json());
 
 app.use(bodyParser.urlencoded({ 
   extended: true
 }));
 
-var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false");
+mongoose.connect("mongodb+srv://test:test@cluster0-gahtk.mongodb.net/test?retryWrites=true&w=majority");
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/content/home.phtml');
+res.sendFile(__dirname + '/index.html');
 });
 
 app.listen(port, () => {
