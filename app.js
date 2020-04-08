@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());
@@ -11,10 +11,10 @@ app.use(bodyParser.urlencoded({
 
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost:27017/node-demo");
+mongoose.connect("mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false");
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + 'content/home.phtml');
+res.sendFile(__dirname + '/content/home.phtml');
 });
 
 app.listen(port, () => {
