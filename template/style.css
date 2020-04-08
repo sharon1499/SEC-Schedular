@@ -254,7 +254,7 @@ footer {
 
 polygon {
   stroke-width: 1;
-  stroke: red;
+  stroke: black;
   fill: transparent;
 }
 polygon:hover {
