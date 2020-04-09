@@ -1,23 +1,24 @@
 var http = require('http');
 var path = require('path');
-const express = require("express");
+var express = require("express");
 var bodyParser = require("body-parser");
-var app = express();
 var mongoose = require("mongoose");
-var port = 3000;
+var app = express();
+var port = process.env.PORT || 3000;
 
+app.set('views', path.join(__dirname, 'views'));
+app.set("view engine", 'ejs');
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ encoded: false}));
 app.use(express.static("public"));
-
-app.use(bodyParser.urlencoded({ 
-  extended: false
-}));
 
 mongoose.Promise = global.Promise;
 mongoose.connect("mongodb+srv://test:test@cluster0-gahtk.mongodb.net/test?retryWrites=true&w=majority");
+let db = mongoose.connection;
+db.on('error', console.error.bind(console, "MongoDB connection error:"))
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/content/form.html');
+res.render("index.ejs", {});
 });
 
 app.listen(port, () => {
