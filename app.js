@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ 
-  extended: true
+  extended: false
 }));
 
 mongoose.Promise = global.Promise;
@@ -26,7 +26,8 @@ console.log('Server listening on port ' + port);
 
 var nameSchema = new mongoose.Schema({
 	firstName: String,
-	lastName: String
+    lastName: String,
+    Room: Number
 });
 
 var User = mongoose.model("User", nameSchema);
