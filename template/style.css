@@ -8,6 +8,24 @@ body {
     color: black;
 }
 
+.brief-intro{
+    background-color: #ECF7FF;
+    color: #888888;
+    padding: 50px 0 50px 0;
+    margin-top: 10em;
+}
+
+.brief-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    line-height: 13em;
+}
+
+.img-center{
+    display: block;
+}
+
 html {
     /*height: 100%;*/
     /*margin-bottom: 40rem;*/
@@ -23,33 +41,35 @@ html {
 }
 
 .item {
-    padding-right: 4em;
+    padding-right: 3em;
 }
 
 .nav-text-size {
     font-size: 2em;
     font-weight: 800;
-    color: white;
+    color: #000066;
 }
 
 .bg-navbar-color {
     /*background: linear-gradient(to bottom, #000066 0%, #ffffff 100%);*/
-    background: #000066;
+    background: white;
+    color: #000066;
 }
 
 .contact-image {
     margin-left: 20em;
 }
 
+.brand-padding{
+    padding-left: 4em;
+}
+
 .home-header {
-
-    /*background-image: url("/columbus_state.jpg");
-    background-repeat: repeat-x; */
-
-    background: #fff7ff;
-    height: 25rem;
+    background: white;
+    /*background: #fff7ff;*/
+    /*height: 25rem;*/
     /*padding-left: 8em;*/
-    padding-top: 8em;
+    padding-top: 12em;
     color: #000066;
     /*margin-top: 6em;*/
     /*border: 1px solid white;
@@ -223,7 +243,6 @@ footer {
 
 .schedule-intro{
     line-height: 3.5em;
-    margin-top: -4em;
     display: block;
     text-align: center;
 }
@@ -231,6 +250,15 @@ footer {
 .faculty-info{
     display: block;
     font-size: 1.5em;
+}
+
+polygon {
+  stroke-width: 1;
+  stroke: black;
+  fill: transparent;
+}
+polygon:hover {
+  fill: blue;
 }
 
 @media screen and (max-width: 320px){
@@ -262,7 +290,7 @@ footer {
 
 .icon-name {
     vertical-align: -0.3em;
-    color: white;
+    color: #000066;
     font-size: 1.5em;
     /*text-decoration: underline;*/
     /*font-family: Niagara Engraved;*/
@@ -342,3 +370,15 @@ footer {
 
 d-block w-fluid{}
 
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+p {
+    padding: 5px;
+    margin:  4px;
+    font-size: 20px;
+    display: inline;
+}
