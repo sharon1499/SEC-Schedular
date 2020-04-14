@@ -1,29 +1,26 @@
-var http = require('http');
-var path = require('path');
-var express = require("express");
-var bodyParser = require("body-parser");
-var mongoose = require("mongoose");
+var express = require('express');
 var app = express();
-var port = process.env.PORT || 3000;
+var port = 3000;
 
-app.set('views', path.join(__dirname, 'views'));
-app.set("view engine", 'ejs');
+var bodyParser = require("body-parser");
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ encoded: false}));
-app.use(express.static("public"));
 
+app.use(bodyParser.urlencoded({ 
+  extended: true
+}));
+
+var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 mongoose.connect("mongodb+srv://test:test@cluster0-gahtk.mongodb.net/test?retryWrites=true&w=majority");
-let db = mongoose.connection;
-db.on('error', console.error.bind(console, "MongoDB connection error:"))
 
 app.get('/', (req, res) => {
-res.render("index.ejs", {});
+res.sendFile(__dirname + '/content/form.html');
 });
 
 app.listen(port, () => {
 console.log('Server listening on port ' + port);
 });
+
 
 var nameSchema = new mongoose.Schema({
 	firstName: String,
