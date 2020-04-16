@@ -330,18 +330,18 @@
       <div class="modal-body">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 450" >
         <image xlink:href="Dav-full-floor.jpg" height="426" width="765" data-toggle="modal" data-target="#modal5-2"></image>
-        <polygon points="394,114,392,49,409,35,483,105,471,116" onclick="myFunction()"/>
-        <polygon points="12,176,59,176,59,190,76,189,77,185,114,185,112,217,117,220,117,367,12,368" onclick="myFunction2()"/>
-        <polygon points="218,240,376,240,376,355,220,356" onclick="myFunction3()"/>
-        <polygon points="412,34,424,21,488,22,491,71,504,86,485,104" onclick="myFunction4()"/>
-        <polygon points="494,23,539,22,540,90,528,93,520,85,512,92,492,68" onclick="myFunction5()"/>
-        <polygon points="540,21,585,23,584,69,568,89,558,81,549,93,540,93" onclick="myFunction6()"/>
-        <polygon points="587,23,646,21,657,37,593,102,575,85,588,70" onclick="myFunction7()"/>
-        <polygon points="661,40,677,54,676,114,605,116,595,101" onclick="myFunction8()"/>
-        <polygon points="443,242,444,179,464,180,480,166,468,151,495,128,592,177,607,165,619,166,630,180,631,242,599,246,496,296,470,270,479,255,465,242" onclick="myFunction9()"/>
+        <polygon id="img1" alt="MTGRM#1" title="MTGRM#1" points="394,114,392,49,409,35,483,105,471,116" onclick="myFunction()"/>
+        <polygon id="img2" alt="Columbus Room Meeting Area" title="Columbus Room Meeting Area" points="12,176,59,176,59,190,76,189,77,185,114,185,112,217,117,220,117,367,12,368" onclick="myFunction2()"/>
+        <polygon id="img3" alt="Activity Room" title="Activity Room" points="218,240,376,240,376,355,220,356" onclick="myFunction3()"/>
+        <polygon id="img4" alt="MTGRM#2" title="MTGRM#2" points="412,34,424,21,488,22,491,71,504,86,485,104" onclick="myFunction4()"/>
+        <polygon id="img5" alt="MTGRM#3" title="MTGRM#3" points="494,23,539,22,540,90,528,93,520,85,512,92,492,68" onclick="myFunction5()"/>
+        <polygon id="img6" alt="MTGRM#4" title="MTGRM#4" points="540,21,585,23,584,69,568,89,558,81,549,93,540,93" onclick="myFunction6()"/>
+        <polygon id="img7" alt="MTGRM#5" title="MTGRM#5" points="587,23,646,21,657,37,593,102,575,85,588,70" onclick="myFunction7()"/>
+        <polygon id="img8" alt="MTGRM#6" title="MTGRM#6" points="661,40,677,54,676,114,605,116,595,101" onclick="myFunction8()"/>
+        <polygon id="img9" alt="Assembly" title="Assembly" points="443,242,444,179,464,180,480,166,468,151,495,128,592,177,607,165,619,166,630,180,631,242,599,246,496,296,470,270,479,255,465,242" onclick="myFunction9()"/>
         </svg>
-
-        <h3>Room:</h3><p class="a b c d e f g h i"></p>
+        <h3>Room Name:</h3><p class="j k l m n o p q r"></p>
+        <h3>Room Number:</h3><p class="a b c d e f g h i"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger " data-dismiss="modal" aria-label="Close">Close</button>
@@ -426,54 +426,81 @@ $('#davidFloors').change(function(){
 function myFunction() {
   var x = document.getElementsByClassName("a");
   x[0].innerHTML = "254";
+
+  var y = document.getElementById("img1").title;
+  document.getElementById("j").innerHTML = y;
 }
 </script>
 <script>
 function myFunction2() {
   var x = document.getElementsByClassName("b");
   x[0].innerHTML = "208";
+  
+  var y = document.getElementById("img2").title;
+  document.getElementById("k").innerHTML = y;
 }
 </script>
 <script>
 function myFunction3() {
   var x = document.getElementsByClassName("c");
   x[0].innerHTML = "227";
+
+  var y = document.getElementById("img3").title;
+  document.getElementById("l").innerHTML = y;
 }
 </script>
 <script>
 function myFunction4() {
   var x = document.getElementsByClassName("d");
   x[0].innerHTML = "255";
+
+  var y = document.getElementById("img4").title;
+  document.getElementById("m").innerHTML = y;
 }
 </script>
 <script>
 function myFunction5() {
   var x = document.getElementsByClassName("e");
   x[0].innerHTML = "256";
+
+  var y = document.getElementById("img5").title;
+  document.getElementById("n").innerHTML = y;
 }
 </script>
 <script>
 function myFunction6() {
   var x = document.getElementsByClassName("f");
   x[0].innerHTML = "257";
+
+  var y = document.getElementById("img6").title;
+  document.getElementById("o").innerHTML = y;
 }
 </script>
 <script>
 function myFunction7() {
   var x = document.getElementsByClassName("g");
   x[0].innerHTML = "258";
+
+  var y = document.getElementById("img7").title;
+  document.getElementById("p").innerHTML = y;
 }
 </script>
 <script>
 function myFunction8() {
   var x = document.getElementsByClassName("h");
   x[0].innerHTML = "259";
+
+  var y = document.getElementById("img8").title;
+  document.getElementById("q").innerHTML = y;
 }
 </script>
 <script>
 function myFunction9() {
   var x = document.getElementsByClassName("i");
   x[0].innerHTML = "235";
+
+  var y = document.getElementById("img9").title;
+  document.getElementById("r").innerHTML = y;
 }
 </script>
 </html>
