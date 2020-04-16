@@ -325,7 +325,11 @@ footer {
     padding-bottom: 15px;
     color: white;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
+}
+.infoSpace
+{
+    padding-bottom: 20px;
 }
 .affix {
     top: 0;
