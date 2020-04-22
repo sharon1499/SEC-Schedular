@@ -9,9 +9,12 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+const Todo = require('./models/user.model');
 var mongoose = require("mongoose");
-mongoose.Promise = global.Promise;
 mongoose.connect("mongodb+srv://test:test@cluster0-gahtk.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.Promise = global.Promise;
+let db = mongoose.connection;
+db.on('error', console.error.bind(console, "MongoDB connection error:"));
 
 app.get('/', (req, res) => {
 res.sendFile(__dirname + '/content/form.html');
@@ -23,12 +26,22 @@ console.log('Server listening on port ' + port);
 
 
 app.post("/addname", (req, res) => {
-	var myData = new User(req.body);
-	myData.save()
-	  .then(item => {
-		  res.send("Item saved to database");
-	  })
-	  .catch(err => {
-		  res.status(400).send("Unable to save to database");
-	  });
+    console.log(req.body.firstName)	
+    console.log(req.body.lastName)
+    console.log(req.body.Room)
+
+    let newUser = new User({
+        first: req.body.firstName,
+        last: req.body.lastName,
+        room: req.body.Room,
+        done: false
+    });
+
+    newUser.save(function(err, user){
+        if (err){
+            res.json({"Error: ":err})
+        }else{
+            res.json({"Status: ": "Successful", "ObjectId": user.id})
+        }
+    })
 });
