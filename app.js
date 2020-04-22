@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-const Todo = require('./models/user.model');
+const User = require('./models/user.model');
 var mongoose = require("mongoose");
 mongoose.connect("mongodb+srv://test:test@cluster0-gahtk.mongodb.net/test?retryWrites=true&w=majority");
 mongoose.Promise = global.Promise;
@@ -17,7 +17,7 @@ let db = mongoose.connection;
 db.on('error', console.error.bind(console, "MongoDB connection error:"));
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/content/form.html');
+res.sendFile(__dirname + '/content/form.phtml');
 });
 
 app.listen(port, () => {
