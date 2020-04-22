@@ -17,7 +17,7 @@ let db = mongoose.connection;
 db.on('error', console.error.bind(console, "MongoDB connection error:"));
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/content/home.html');
+res.sendFile(__dirname + '/content/form.html');
 });
 
 app.listen(port, () => {
