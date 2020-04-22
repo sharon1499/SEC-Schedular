@@ -22,14 +22,6 @@ console.log('Server listening on port ' + port);
 });
 
 
-var nameSchema = new mongoose.Schema({
-	firstName: String,
-    lastName: String,
-    Room: Number
-});
-
-var User = mongoose.model("User", nameSchema);
-
 app.post("/addname", (req, res) => {
 	var myData = new User(req.body);
 	myData.save()
