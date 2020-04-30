@@ -47,21 +47,12 @@
     $(document).ready(function(){
       $(window).scroll(function() { // check if scroll event happened
         if ($(document).scrollTop() > 70) { // check if user scrolled more than 50 from top of the browser window
-          /*$(".fixed-top").css("color", "#ffffff");
-          $(".nav-text-size").css("color", "#ffffff");
-          $(".icon-name").css("color", "#ffffff");*/
          $("#icon-img").attr("src","svg/shimane-japan-flag-symbol.svg");
 
-       // } else {
-       //     $("#icon-img").attr("src","svg/shimane-japan-flag-symbol.svg");
-          /*$(".fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
-          $(".fixed-top").css("color", "#000066");
-          $(".nav-text-size").css("color", "#000066");
-          $(".icon-name").css("color", "#000066");
-          $(".icon-img").css("background-color", "#000066");*/
-        //}
-      //});
-    //});
+       } else {
+         
+      });
+    });
 </script>
 </body>
    <footer> 
