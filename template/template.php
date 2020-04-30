@@ -44,7 +44,7 @@
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script>
-    $(document).ready(function(){
+    /*$(document).ready(function(){
       $(window).scroll(function() { // check if scroll event happened
         if ($(document).scrollTop() > 70) { // check if user scrolled more than 50 from top of the browser window
           $(".fixed-top").css("background-color", "#000066"); 
@@ -60,7 +60,7 @@
           $(".icon-img").css("background-color", "#000066");
         }
       });
-    });
+    });*/
 </script>
 </body>
    <footer> 
