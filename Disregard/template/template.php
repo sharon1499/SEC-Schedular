@@ -43,17 +43,6 @@
 <?php page_content();?>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script>
-    $(document).ready(function(){
-      $(window).scroll(function() { // check if scroll event happened
-        if ($(document).scrollTop() > 70) { // check if user scrolled more than 50 from top of the browser window
-         $("#icon-img").attr("src","svg/shimane-japan-flag-symbol.svg");
-
-       } else {
-         
-      });
-    });
-</script>
 </body>
    <footer> 
    <div class="container navbar-fixed-bottom">

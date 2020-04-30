@@ -15,6 +15,10 @@ body {
     margin-top: 10em;
 }
 
+.take-away-margin{
+    margin-right: 0 !important;
+}
+
 .brief-info {
     display: flex;
     align-items: center;
