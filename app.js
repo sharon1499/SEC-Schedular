@@ -5,6 +5,7 @@ var port = process.env.PORT || 3000;
 var bodyParser = require("body-parser");
 const User = require('./models/user.model');
 var mongoose = require("mongoose");
+
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ 
@@ -26,23 +27,13 @@ app.get('/contact',(req,res) => {
 app.get('/information',(req,res) => {
     res.render('information');
 })
-app.listen(port, () => {
-console.log('Server listening on port ' + port);
-});
-
-
 app.post("/addname", (req, res) => {
-    console.log(req.body.firstName)	
-    console.log(req.body.lastName)
-    console.log(req.body.Room)
-
     let newUser = new User({
         first: req.body.firstName,
         last: req.body.lastName,
         room: req.body.Room,
         done: false
     });
-
     newUser.save(function(err, user){
         if (err){
             res.json({"Error: ":err})
@@ -50,4 +41,7 @@ app.post("/addname", (req, res) => {
             res.json({"Status: ": "Successful", "ObjectId": user.id})
         }
     })
+});
+app.listen(port, () => {
+    console.log('Server listening on port ' + port);
 });
