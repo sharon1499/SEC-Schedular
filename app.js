@@ -27,13 +27,21 @@ app.get('/contact',(req,res) => {
 app.get('/information',(req,res) => {
     res.render('information');
 })
+
+app.get('/faq',(req,res) => {
+    res.render('faq');
+})
+
+app.get('/datepicker',(req,res) => {
+    res.render('datepicker');
+})
 app.post("/addname", (req, res) => {
     let newUser = new User({
         first: req.body.firstName,
         last: req.body.lastName,
         room: req.body.Room,
-        done: false
     });
+
     newUser.save(function(err, user){
         if (err){
             res.json({"Error: ":err})
@@ -42,6 +50,7 @@ app.post("/addname", (req, res) => {
         }
     })
 });
+
 app.listen(port, () => {
     console.log('Server listening on port ' + port);
 });

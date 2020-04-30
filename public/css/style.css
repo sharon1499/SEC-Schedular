@@ -262,7 +262,7 @@ polygon {
   fill: transparent;
 }
 polygon:hover {
-  fill: blue;
+  fill: mediumseagreen;
 }
 
 @media screen and (max-width: 320px){
