@@ -23,6 +23,9 @@ app.get('/', (req, res) => {
 app.get('/contact',(req,res) => {
     res.render('contact');
 })
+app.get('/information',(req,res) => {
+    res.render('information');
+})
 app.listen(port, () => {
 console.log('Server listening on port ' + port);
 });
