@@ -40,15 +40,23 @@ app.post("/addname", (req, res) => {
         first: req.body.firstName,
         last: req.body.lastName,
         room: req.body.Room,
+        date: req.body.datepicker
     });
-
-    newUser.save(function(err, user){
+    newUser.findOne({ 
+    'room': req.body.Room,
+    'date': req.body.datepicker }, function(err, user) {
+      if (user) {
+        res.json({"Room already taken" : err})
+      } else {
+        newUser.save(function(err, user){
         if (err){
             res.json({"Error: ":err})
         }else{
             res.json({"Status: ": "Successful", "ObjectId": user.id})
         }
     })
+      }
+   })
 });
 
 app.listen(port, () => {
