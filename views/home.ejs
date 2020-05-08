@@ -1,0 +1,517 @@
+<%- include ('header'); %>
+<div class="home-header">
+<div class="schedule-intro">
+  <span class="campus-header">Campus Schedular</span>
+  <span class="text-edit">Try our simple cougar schedular<br>where simplicity is our key element.</span>
+
+    <!--<img src="logo-image.png" height="200" width="200"/>-->
+  <!--<a href="https://sec-schedulars.herokuapp.com//?page=information" class="btn btn-color btn-lg active button-height" role="button" aria-pressed="true">Learn More</a>-->
+</div>
+</div>
+<div class="brief-intro">
+<div class="row take-away-margin">
+<div class="col">
+<img src="svg/friendship-day.svg" height="250" width="250" class="mx-auto img-center">
+</div>
+<div class="col">
+<div class="brief-info">
+ <div class="col">
+  <h3>Unsure of how to opperate the schedular? </h3>
+    
+   <p> <a href="https://sec-schedulars.herokuapp.com//?page=faq"  aria-pressed="true"> Click here </a> to learn more about how GroupSynch works. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container scroll-content">
+  <div class="title-section">
+  <span class="home-building-header"><strong>Explore our main buildings</strong></span><br>
+  <span class="home-building-body-text">Browse the available buildings below</span></div>
+  <div class="row building-margin-bottom">
+
+    <div class="col-sm-4 image-space">
+      <img src="images/HowardHall.jpg" height=350 width=350 class="rounded-images" alt="Howard Hall Building" title="This is Howard Hall building"/>
+      <div class="image-name">Howard Hall</div>
+      <div class="button-format">
+        <select id="howardFloors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Select Floor</option>
+        <option value="#modal1">Floor 1</option>
+        </select>
+        </div>   
+        <!-- End button-format div -->
+      </div>
+      <!-- End col-sm-4 div -->
+
+
+    <div class="col-sm-4 image-space">
+      <img src="images/elizabethturnercenter.jpg" height=350 width=350 class="rounded-images" alt="Elizabeth Turner Center Building" title="This is Elizabeth Turner Center Building"/>
+      <div class="image-name">Elizabeth Turner Center</div>
+        <div class="button-format">
+            <select id="elizaFloors" class="btn btn-primary bg-color-1 btn-lg">
+            <option value="">Select Floor</option>
+            <option value="#modal2-1">Floor 1</option>
+            <option value="#modal2-2">Floor 2</option>
+            </select>
+        </div>   
+        <!-- End button-format div -->
+      </div>
+      <!-- End col-sm-4 div -->
+
+
+    <div class="col-sm-4 image-space">
+      <img src="images/CCT.jpg" height=350 width=350 class="rounded-images" alt="CCT Building" title="This is CCT Building"/>
+      <div class="image-name name-fix">Center for Commerce & Technology</div>
+      <div class="button-format cct-button">
+        <select id="cctFloors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Select Floor</option>
+        <option value="#modal3-1">Floor 1</option>
+        <option value="#modal3-2">Floor 2</option>
+        <option value="#modal3-3">Floor 3</option>
+        <option value="#modal3-4">Floor 4</option>
+        </select>
+        </div>   
+        <!-- End button-format div -->
+      </div>
+
+      <!-- End col-sm-4 div -->
+
+    <div class="col-sm-4 image-space">
+      <img src="images/RECcenter.jpg" height=350 width=350 class="rounded-images" alt="REC center Building" title="This is REC center Building"/>
+      <div class="image-name">Student Recreation Center</div>
+      <div class="button-format">
+        <select id="recFloors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Select Floor</option>
+        <option value="#modal4-1">Floor 1</option>
+        <option value="#modal4-2">Floor 2</option>
+        </select>
+        </div>   
+        <!-- End button-format div -->
+      </div>
+      <!-- End col-sm-4 div -->
+
+
+
+    <div class="col-sm-4 image-space">
+      <img src="images/davidsons.jpg" height=350 width=350 class="rounded-images" alt="Davidson Building" title="This is Davidson Building"/>
+      <div class="image-name">Davidson Student Center</div>
+      <div class="button-format">
+        <select id="davidFloors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Select Floor</option>
+        <option value="#modal5-1">Floor 1</option>
+        <option value="#modal5-2">Floor 2</option>
+        </select>
+        </div>   
+        <!-- End button-format div -->
+      </div>
+      <!-- End col-sm-4 div -->
+
+
+    <div class="col-sm-4 image-space">
+      <img src="images/RECcenter.jpg" height=350 width=350 class="rounded-images" alt="Undecided Building" title="This is Undecided Building"/>
+      <div class="image-name">Undecided</div>
+      <div class="button-format">
+        <select id="floors" class="btn btn-primary bg-color-1 btn-lg">
+        <option value="">Select Floor</option>
+        <option value="#modal6-1">Floor 1</option>
+        <option value="#modal6-1">Floor 2</option>
+        </select>
+        </div>   
+        <!-- End button-format div -->
+      </div>
+      <!-- End col-sm-4 div -->
+
+  </div>
+</div>
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Howard Hall</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal2-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Elizabeth Turner Center - Floor 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/1st Floor.jpg" height="470" width="470" data-toggle="modal" data-target="#modal2-1"/>
+        <h3 class="mt-5"> Location Address:</h3>
+        <p><a href="https://www.google.com/maps/place/Elizabeth+Bradley+Turner+Center/@32.498867,-84.9466747,17z/data=!3m1!4b1!4m5!3m4!1s0x888ccccbee200869:0xfb9e7309d6fb085e!8m2!3d32.498867!4d-84.944486">
+        Elizabeth Bradley Turner Center<br>
+        4225 University Ave<br>
+       Columbus, GA 31907</a><br></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal2-2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Elizabeth Turner Center - Floor 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/2nd Floor.jpg" height="470" width="470" data-toggle="modal" data-target="#modal2-1"/>
+        <h3 class="mt-5"> Location Address:</h3>
+        <p><a href="https://www.google.com/maps/place/Elizabeth+Bradley+Turner+Center/@32.498867,-84.9466747,17z/data=!3m1!4b1!4m5!3m4!1s0x888ccccbee200869:0xfb9e7309d6fb085e!8m2!3d32.498867!4d-84.944486">
+        Elizabeth Bradley Turner Center<br>
+        4225 University Ave<br>
+       Columbus, GA 31907</a><br></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal3-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Center for Commerce & Technology - Floor 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal3-2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Center for Commerce & Technology - Floor 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal3-3" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Center for Commerce & Technology - Floor 3</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal3-4" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Center for Commerce & Technology - Floor 4</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal4-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Student Recreation Center - Floor 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <img src="images/recmap.JPG" height="470" width="470" data-toggle="modal" data-target="#modal4-1"/>
+       <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal4-2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Student Recreation Center - Floor 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <img src="images/recmap.JPG" height="470" width="470" data-toggle="modal" data-target="#modal4-2"/>
+       <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal5-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Davidson Student Center - Floor 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 450" >
+        <image xlink:href="images/Dav-full-First.jpg" height="470" width="470" data-toggle="modal" data-target="#modal5-1"></image>
+        <polygon id="dav-first" alt="s" title="s" points="283,349,292,348,294,413,282,415" onclick="myFunction10()"/>
+        </svg>
+        <h3 class="mt-5"> Room Number:</h3><p class="j"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal5-2" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Davidson Student Center - Floor 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 450" >
+        <image xlink:href="images/Dav-full-floor.jpg" height="426" width="765" data-toggle="modal" data-target="#modal5-2"></image>
+        <polygon id="img1" alt="MTGRM#1" title="MTGRM#1" points="394,114,392,49,409,35,483,105,471,116" onclick="myFunction()"/>
+        <polygon id="img2" alt="Columbus Room Meeting Area" title="Columbus Room Meeting Area" points="12,176,59,176,59,190,76,189,77,185,114,185,112,217,117,220,117,367,12,368" onclick="myFunction2()"/>
+        <polygon id="img3" alt="Activity Room" title="Activity Room" points="218,240,376,240,376,355,220,356" onclick="myFunction3()"/>
+        <polygon id="img4" alt="MTGRM#2" title="MTGRM#2" points="412,34,424,21,488,22,491,71,504,86,485,104" onclick="myFunction4()"/>
+        <polygon id="img5" alt="MTGRM#3" title="MTGRM#3" points="494,23,539,22,540,90,528,93,520,85,512,92,492,68" onclick="myFunction5()"/>
+        <polygon id="img6" alt="MTGRM#4" title="MTGRM#4" points="540,21,585,23,584,69,568,89,558,81,549,93,540,93" onclick="myFunction6()"/>
+        <polygon id="img7" alt="MTGRM#5" title="MTGRM#5" points="587,23,646,21,657,37,593,102,575,85,588,70" onclick="myFunction7()"/>
+        <polygon id="img8" alt="MTGRM#6" title="MTGRM#6" points="661,40,677,54,676,114,605,116,595,101" onclick="myFunction8()"/>
+        <polygon id="img9" alt="Assembly" title="Assembly" points="443,242,444,179,464,180,480,166,468,151,495,128,592,177,607,165,619,166,630,180,631,242,599,246,496,296,470,270,479,255,465,242" onclick="myFunction9()"/>
+        </svg>
+        <h3>Room Number:</h3><p class="a b c d e f g h i"></p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal" aria-label="Close">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal6-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title change-font" id="modallabel">Undecided</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="mt-5"> Currently Unavailable</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    $('#howardFloors').change(function(){
+     if ($(this).val() == "#modal1") {
+           $('#modal1').modal('show');
+         }
+   });
+   </script>
+   <script>
+   $('#elizaFloors').change(function(){
+       if ($(this).val() == "#modal2-1") {
+           $('#modal2-1').modal('show');
+         }
+       if ($(this).val() == "#modal2-2") {
+           $('#modal2-2').modal('show');
+         }
+   });
+   </script>
+   <script>
+   $('#cctFloors').change(function(){
+       if ($(this).val() == "#modal3-1") {
+           $('#modal3-1').modal('show');
+         }
+       if ($(this).val() == "#modal3-2") {
+           $('#modal3-2').modal('show');
+         }
+       if ($(this).val() == "#modal3-3") {
+           $('#modal3-3').modal('show');
+         }
+       if ($(this).val() == "#modal3-4") {
+           $('#modal3-4').modal('show');
+         }
+   });
+   </script>
+   <script>
+   $('#recFloors').change(function(){
+       if ($(this).val() == "#modal4-1") {
+           $('#modal4-1').modal('show');
+         }
+       if ($(this).val() == "#modal4-2") {
+           $('#modal4-2').modal('show');
+         }
+   });
+   </script>
+   <script>
+   $('#davidFloors').change(function(){
+       if ($(this).val() == "#modal5-1") {
+           $('#modal5-1').modal('show');
+         }
+       if ($(this).val() == "#modal5-2") {
+           $('#modal5-2').modal('show');
+         }
+   });
+   </script>
+   
+   <script>
+   function myFunction() {
+     var x = document.getElementsByClassName("a");
+     x[0].innerHTML = "254";
+   
+     /*var y = document.getElementById("img1").title;
+     document.getElementById("j").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction2() {
+     var x = document.getElementsByClassName("b");
+     x[0].innerHTML = "208";
+     
+     /*var y = document.getElementById("img2").title;
+     document.getElementById("k").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction3() {
+     var x = document.getElementsByClassName("c");
+     x[0].innerHTML = "227";
+   
+     /*var y = document.getElementById("img3").title;
+     document.getElementById("l").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction4() {
+     var x = document.getElementsByClassName("d");
+     x[0].innerHTML = "255";
+   
+     /*var y = document.getElementById("img4").title;
+     document.getElementById("m").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction5() {
+     var x = document.getElementsByClassName("e");
+     x[0].innerHTML = "256";
+   
+     /*var y = document.getElementById("img5").title;
+     document.getElementById("n").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction6() {
+     var x = document.getElementsByClassName("f");
+     x[0].innerHTML = "257";
+   
+     /*var y = document.getElementById("img6").title;
+     document.getElementById("o").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction7() {
+     var x = document.getElementsByClassName("g");
+     x[0].innerHTML = "258";
+   
+     /*var y = document.getElementById("img7").title;
+     document.getElementById("p").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction8() {
+     var x = document.getElementsByClassName("h");
+     x[0].innerHTML = "259";
+   
+     /*var y = document.getElementById("img8").title;
+     document.getElementById("q").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction9() {
+     var x = document.getElementsByClassName("i");
+     x[0].innerHTML = "235";
+   
+     /*var y = document.getElementById("img9").title;
+     document.getElementById("r").innerHTML = y;*/
+   }
+   </script>
+   <script>
+   function myFunction10() {
+     var x = document.getElementsByClassName("j");
+     x[0].innerHTML = "N/A";
+   
+     /*var y = document.getElementById("img9").title;
+     document.getElementById("r").innerHTML = y;*/
+   }
+   </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <%- include ('footer'); %>
