@@ -273,6 +273,8 @@ polygon:hover {
     .copyright{
         display: none;
     }
+    .campus-header {
+        font-size:3.5em;
 }
 
 .modal-elements{
