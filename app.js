@@ -6,6 +6,7 @@ var bodyParser = require("body-parser");
 const User = require('./models/user.model');
 var mongoose = require("mongoose");
 
+
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ 
@@ -50,9 +51,9 @@ app.post("/addname", (req, res) => {
       } else {
         newUser.save(function(err, user){
         if (err){
-            res.json({"Error: ":err})
+            res.jsonp({"Error: ":err})
         }else{
-            res.json({"Status: ": "Successful", "ObjectId": user.id})
+            res.jsonp({"Status: ": "Successful", "ObjectId": user.id})
         }
     })
       }

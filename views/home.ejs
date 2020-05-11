@@ -1,4 +1,5 @@
 <%- include ('header'); %>
+
 <div class="home-header">
 <div class="schedule-intro">
   <span class="campus-header">Campus Schedular</span>
@@ -342,6 +343,14 @@
         <polygon id="img9" alt="Assembly" title="Assembly" points="443,242,444,179,464,180,480,166,468,151,495,128,592,177,607,165,619,166,630,180,631,242,599,246,496,296,470,270,479,255,465,242" onclick="myFunction9()"/>
         </svg>
         <h3>Room Number:</h3><p class="a b c d e f g h i"></p>
+        <form method="post" action="/addname">
+      <label>Enter Your Name</label><br>
+      <input type="text" name="firstName" placeholder="Enter first name..." required></input>
+      <input type="text" name="lastName" placeholder="Enter last name..." required></input>
+      <input type="number" id="roomNum" name="Room" placeholder="Enter the room number..." required></input>
+      <input type="text" id="datepicker" name="datepicker" class="datepicker" placeholder="Enter the date" required></input>
+      <input type="submit" value="Add Name"></input>
+    </form> 
 
       </div>
       <div class="modal-footer">
@@ -426,92 +435,86 @@
    <script>
    function myFunction() {
      var x = document.getElementsByClassName("a");
+     document.getElementById("roomNum").value = "254"
      x[0].innerHTML = "254";
    
-     /*var y = document.getElementById("img1").title;
-     document.getElementById("j").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction2() {
      var x = document.getElementsByClassName("b");
+     document.getElementById("roomNum").value = "208"
      x[0].innerHTML = "208";
      
-     /*var y = document.getElementById("img2").title;
-     document.getElementById("k").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction3() {
      var x = document.getElementsByClassName("c");
+     document.getElementById("roomNum").value = "227"
      x[0].innerHTML = "227";
-   
-     /*var y = document.getElementById("img3").title;
-     document.getElementById("l").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction4() {
      var x = document.getElementsByClassName("d");
+     document.getElementById("roomNum").value = "255"
      x[0].innerHTML = "255";
    
-     /*var y = document.getElementById("img4").title;
-     document.getElementById("m").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction5() {
      var x = document.getElementsByClassName("e");
+     document.getElementById("roomNum").value = "256"
      x[0].innerHTML = "256";
    
-     /*var y = document.getElementById("img5").title;
-     document.getElementById("n").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction6() {
      var x = document.getElementsByClassName("f");
+     document.getElementById("roomNum").value = "257"
      x[0].innerHTML = "257";
    
-     /*var y = document.getElementById("img6").title;
-     document.getElementById("o").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction7() {
      var x = document.getElementsByClassName("g");
+     document.getElementById("roomNum").value = "258"
      x[0].innerHTML = "258";
    
-     /*var y = document.getElementById("img7").title;
-     document.getElementById("p").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction8() {
      var x = document.getElementsByClassName("h");
+     document.getElementById("roomNum").value = "259"
      x[0].innerHTML = "259";
-   
-     /*var y = document.getElementById("img8").title;
-     document.getElementById("q").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction9() {
      var x = document.getElementsByClassName("i");
+     document.getElementById("roomNum").value = "235"
      x[0].innerHTML = "235";
    
-     /*var y = document.getElementById("img9").title;
-     document.getElementById("r").innerHTML = y;*/
    }
    </script>
    <script>
    function myFunction10() {
      var x = document.getElementsByClassName("j");
+     document.getElementById("roomNum").value = "N/A"
      x[0].innerHTML = "N/A";
    
-     /*var y = document.getElementById("img9").title;
-     document.getElementById("r").innerHTML = y;*/
    }
    </script>
+   <script>
+   $("body").delegate("#datepicker", "focusin", function () {
+            
+            $(this).datepicker();
+        });</script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <%- include ('footer'); %>
