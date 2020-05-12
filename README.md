@@ -9,16 +9,16 @@ A live link to our project can be viewed [here](https://sec-schedulars.herokuapp
 # Features
 * Pose questions/comments via 'Contact' Page
 * View Frequently Asked Questions via 'FAQ' Page
-* View instructions of how the reservation system works via 'Information' Page
+* View basic information regardint reservation system via 'Information' Page
 * View available spaces
 * Place Reservation Request
 
 # Installation
 This project utilizes [Node.js](https://nodejs.org/en/) as a means of structure. In order to install, user must use the nmp registry and perform the following if attempting to 
 
-'''bash
+```bash
 $ npm install express
-'''
+```
 
 # Sources
 * Original Campus floor plans provided by [Thomas Rice](rice_thomas@columbusstate.edu) at Campus Planning & Development
