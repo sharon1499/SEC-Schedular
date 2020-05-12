@@ -287,7 +287,7 @@ polygon:hover {
     }
 
     .contactForm{
-        width: 97%;
+        width: 97% !important;
     }
 
     .campus-header{
