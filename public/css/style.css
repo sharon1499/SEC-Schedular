@@ -264,12 +264,25 @@ polygon:hover {
     }
 
     .schedule-intro{
-        margin-top: 5em;
     }
 
     .brief-intro{
         text-align: center;
         line-height: 3em;
+    }
+
+    polygon {
+        stroke-width: 1;
+        stroke: black;
+        fill: transparent;
+    }
+    polygon:hover {
+        fill: mediumseagreen;
+    }
+
+    #rent{
+        margin-left: 0em !important;
+        margin-top: 0em !important;
     }
 }
 
