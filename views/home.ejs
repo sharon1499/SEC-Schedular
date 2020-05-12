@@ -299,7 +299,7 @@
   </div>
 </div>
 <div class="modal fade" id="modal5-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title change-font" id="modallabel">Davidson Student Center - Floor 1</h5>
@@ -309,10 +309,18 @@
       </div>
       <div class="modal-body">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 450" >
-        <image xlink:href="images/Dav-full-First.jpg" height="470" width="470" data-toggle="modal" data-target="#modal5-1"></image>
-        <polygon id="dav-first" alt="s" title="s" points="283,349,292,348,294,413,282,415" onclick="myFunction10()"/>
+        <image xlink:href="images/Dav-full-First.jpg" height="426" width="765" data-toggle="modal" data-target="#modal5-1"></image>
+        <polygon id="dav-first" alt="s" title="s" points="463,316,479,314,479,376,461,376" onclick="myFunction10()"/>
         </svg>
         <h3 class="mt-5"> Room Number:</h3><p class="j"></p>
+        <form method="post" action="/addname">
+      <label>Enter Your Name</label><br>
+      <input type="text" id='fName' name="firstName" placeholder="Enter first name..." required></input>
+      <input type="text" id='lName' name="lastName" placeholder="Enter last name..." required></input>
+      <input type="number" id="roomNum" name="Room" placeholder="Enter the room number..." required></input>
+      <input type="text" id="datepicker" name="datepicker" class="datepicker" placeholder="MM/DD/YYYY" required></input>
+      <input type="submit" id="rent" value="Rent Room"></input>
+    </form> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
@@ -345,11 +353,11 @@
         <h3>Room Number:</h3><p class="a b c d e f g h i"></p>
         <form method="post" action="/addname">
       <label>Enter Your Name</label><br>
-      <input type="text" name="firstName" placeholder="Enter first name..." required></input>
-      <input type="text" name="lastName" placeholder="Enter last name..." required></input>
+      <input type="text" id='fName' name="firstName" placeholder="Enter first name..." required></input>
+      <input type="text" id='lName' name="lastName" placeholder="Enter last name..." required></input>
       <input type="number" id="roomNum" name="Room" placeholder="Enter the room number..." required></input>
-      <input type="text" id="datepicker" name="datepicker" class="datepicker" placeholder="Enter the date" required></input>
-      <input type="submit" value="Add Name"></input>
+      <input type="text" id="datepicker" name="datepicker" class="datepicker" placeholder="MM/DD/YYYY" required></input>
+      <input type="submit" id="rent" value="Rent Room"></input>
     </form> 
 
       </div>
@@ -505,16 +513,11 @@
    <script>
    function myFunction10() {
      var x = document.getElementsByClassName("j");
-     document.getElementById("roomNum").value = "N/A"
-     x[0].innerHTML = "N/A";
+     document.getElementById("roomNum").value = "100"
+     x[0].innerHTML = "100";
    
    }
    </script>
-   <script>
-   $("body").delegate("#datepicker", "focusin", function () {
-            
-            $(this).datepicker();
-        });</script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <%- include ('footer'); %>
