@@ -56,14 +56,12 @@ app.post("/addname", (req, res) => {
     'date': req.body.datepicker}, function(err, user) {
       if (user) {
           res.render('unsuccessful');
-        /*res.jsonp({"Room already taken" : err})*/
       } else {
         newUser.save(function(err, user){
         if (err){
             res.jsonp({"Error: ": err})
         }else{
             res.render('success');
-            /*res.jsonp({"Status: ": "Successful", "ObjectId": user.id})*/
         }
     })
       }
