@@ -262,6 +262,15 @@ polygon:hover {
     .copyright{
         display: none;
     }
+
+    .schedule-intro{
+        margin-top: 5em;
+    }
+
+    .brief-intro{
+        text-align: center;
+        line-height: 3em;
+    }
 }
 
 .modal-elements{
