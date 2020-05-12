@@ -262,6 +262,9 @@ polygon:hover {
     .copyright{
         display: none;
     }
+    .campus-header {
+        font-size:3.5em;
+    }
 }
 
 .modal-elements{
@@ -284,12 +287,11 @@ polygon:hover {
 }
 
 .contactForm{
-    background-color: #ECF7FF;
-    color: black;
-    width: 50%;
-    border: 5px solid black;
+    background: #07008d;
+    width: 107%;
+    border: 3px solid rgb(18, 3, 85);
     border-radius: 80px;
-    margin-bottom: 13em;
+    margin-bottom: 20em;
     margin-top: 5em;
     padding: 4em;
     font-weight: bold;
@@ -297,14 +299,47 @@ polygon:hover {
 }
 .form-group
 {
+    position: relative;
     padding-top: 10px;
 }
 .form-control
 {
     border: none;
-    border-bottom: 1px solid black;
-    border-radius: 0px;
+    border-bottom: 2px solid rgb(0, 132, 255);
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background: #eaf9ff; 
     
+}
+.form-control::placeholder 
+{
+    color: red;
+}
+.form-control:focus::placeholder 
+{
+    color: #09008d;
+}
+.form-control:focus
+{
+    border-bottom: 2px solid #1266e1;
+}
+.infoHeader
+{
+    background-color: #050066;
+    width: auto;
+    padding: 10px;
+    bottom: 10px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.infoSpace
+{
+    padding-bottom: 20px;
 }
 
 .affix {
