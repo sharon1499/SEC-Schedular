@@ -122,7 +122,7 @@ html {
 footer {
 	background-color: #000066;
 	color: white;
-	position: initial;
+	position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -369,7 +369,7 @@ polygon:hover {
     color: #ffffff;
 }
 
-#fName, #lName, #roomNum, #datepicker{
+#fName, #lName, #roomNum, #roomNum2, #date{
     border: 1px solid #000066;
     padding: 0.2em;
     border-radius: 7px;

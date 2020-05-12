@@ -4,9 +4,6 @@
 <div class="schedule-intro">
   <span class="campus-header">Campus Schedular</span>
   <span class="text-edit">Try our simple cougar schedular<br>where simplicity is our key element.</span>
-
-    <!--<img src="logo-image.png" height="200" width="200"/>-->
-  <!--<a href="https://sec-schedulars.herokuapp.com//?page=information" class="btn btn-color btn-lg active button-height" role="button" aria-pressed="true">Learn More</a>-->
 </div>
 </div>
 <div class="brief-intro">
@@ -40,9 +37,7 @@
         <option value="#modal1">Floor 1</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
     <div class="col-sm-4 image-space">
@@ -55,9 +50,7 @@
             <option value="#modal2-2">Floor 2</option>
             </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
     <div class="col-sm-4 image-space">
@@ -72,10 +65,8 @@
         <option value="#modal3-4">Floor 4</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
 
-      <!-- End col-sm-4 div -->
 
     <div class="col-sm-4 image-space">
       <img src="images/RECcenter.jpg" height=350 width=350 class="rounded-images" alt="REC center Building" title="This is REC center Building"/>
@@ -87,9 +78,7 @@
         <option value="#modal4-2">Floor 2</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
 
@@ -103,9 +92,7 @@
         <option value="#modal5-2">Floor 2</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
     <div class="col-sm-4 image-space">
@@ -118,9 +105,7 @@
         <option value="#modal6-1">Floor 2</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
   </div>
 </div>
@@ -518,6 +503,12 @@
    
    }
    </script>
+<script>
+jQuery.noConflict();
 
+  $( function() {
+    $( "#date" ).datepicker();
+  } );
+  </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <%- include ('footer'); %>
