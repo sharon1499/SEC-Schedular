@@ -250,7 +250,7 @@ polygon:hover {
   fill: mediumseagreen;
 }
 .datepicker{ z-index:99999 !important; }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px){
     .fixed-top{
         position: inherit;
     }
