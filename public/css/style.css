@@ -12,7 +12,7 @@ body {
     background-color: #ECF7FF;
     color: #888888;
     padding: 100px 0 100px 0;
-    margin-top: 10em;
+    /*margin-top: 10em;*/
 }
 
 .take-away-margin{
@@ -69,7 +69,7 @@ html {
 }
 
 .home-header {
-    background: white;
+    background: #d1d4da;
     /*background: #fff7ff;*/
     /*height: 25rem;*/
     /*padding-left: 8em;*/
@@ -78,6 +78,7 @@ html {
     /*margin-top: 6em;*/
     /*border: 1px solid white;
     border-radius: 8px;*/
+    margin-bottom: 10em;
 }
 
 .campus-header {
@@ -344,7 +345,7 @@ polygon:hover {
 }
 
 .building-margin-bottom{
-    margin-bottom: 20em;
+    margin-bottom: 10em;
 }
 
 .info-header-size{
