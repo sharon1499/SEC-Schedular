@@ -264,6 +264,7 @@ polygon:hover {
     }
 
     .schedule-intro{
+        font-size: 0.8em;
     }
 
     .brief-intro{
@@ -283,6 +284,14 @@ polygon:hover {
     #rent{
         margin-left: 0em !important;
         margin-top: 0em !important;
+    }
+
+    .contactForm{
+        width: 97%;
+    }
+
+    .campus-header{
+        font-size: 4em;
     }
 }
 
