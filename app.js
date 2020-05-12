@@ -29,6 +29,14 @@ app.get('/information',(req,res) => {
     res.render('information');
 })
 
+app.get('/success',(req,res) => {
+    res.render('success');
+})
+
+app.get('/unsuccessful',(req,res) => {
+    res.render('unsuccessful');
+})
+
 app.get('/faq',(req,res) => {
     res.render('faq');
 })
@@ -47,13 +55,13 @@ app.post("/addname", (req, res) => {
     'room': req.body.Room,
     'date': req.body.datepicker}, function(err, user) {
       if (user) {
-        res.json({"Room already taken" : err})
+          res.render('unsuccessful');
       } else {
         newUser.save(function(err, user){
         if (err){
-            res.jsonp({"Error: ":err})
+            res.jsonp({"Error: ": err})
         }else{
-            res.jsonp({"Status: ": "Successful", "ObjectId": user.id})
+            res.render('success');
         }
     })
       }

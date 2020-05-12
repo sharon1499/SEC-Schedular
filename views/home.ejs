@@ -4,9 +4,6 @@
 <div class="schedule-intro">
   <span class="campus-header">Campus Schedular</span>
   <span class="text-edit">Try our simple cougar schedular<br>where simplicity is our key element.</span>
-
-    <!--<img src="logo-image.png" height="200" width="200"/>-->
-  <!--<a href="https://sec-schedulars.herokuapp.com//?page=information" class="btn btn-color btn-lg active button-height" role="button" aria-pressed="true">Learn More</a>-->
 </div>
 </div>
 <div class="brief-intro">
@@ -40,9 +37,7 @@
         <option value="#modal1">Floor 1</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
     <div class="col-sm-4 image-space">
@@ -55,9 +50,7 @@
             <option value="#modal2-2">Floor 2</option>
             </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
     <div class="col-sm-4 image-space">
@@ -72,10 +65,8 @@
         <option value="#modal3-4">Floor 4</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
 
-      <!-- End col-sm-4 div -->
 
     <div class="col-sm-4 image-space">
       <img src="images/RECcenter.jpg" height=350 width=350 class="rounded-images" alt="REC center Building" title="This is REC center Building"/>
@@ -87,9 +78,7 @@
         <option value="#modal4-2">Floor 2</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
 
@@ -103,9 +92,7 @@
         <option value="#modal5-2">Floor 2</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
 
     <div class="col-sm-4 image-space">
@@ -118,9 +105,7 @@
         <option value="#modal6-1">Floor 2</option>
         </select>
         </div>   
-        <!-- End button-format div -->
       </div>
-      <!-- End col-sm-4 div -->
 
   </div>
 </div>
@@ -299,7 +284,7 @@
   </div>
 </div>
 <div class="modal fade" id="modal5-1" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title change-font" id="modallabel">Davidson Student Center - Floor 1</h5>
@@ -309,10 +294,18 @@
       </div>
       <div class="modal-body">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 450" >
-        <image xlink:href="images/Dav-full-First.jpg" height="470" width="470" data-toggle="modal" data-target="#modal5-1"></image>
-        <polygon id="dav-first" alt="s" title="s" points="283,349,292,348,294,413,282,415" onclick="myFunction10()"/>
+        <image xlink:href="images/Dav-full-First.jpg" height="426" width="765" data-toggle="modal" data-target="#modal5-1"></image>
+        <polygon id="dav-first" alt="s" title="s" points="463,316,479,314,479,376,461,376" onclick="myFunction10()"/>
         </svg>
         <h3 class="mt-5"> Room Number:</h3><p class="j"></p>
+        <form method="post" action="/addname">
+      <label class="mt-4" style="font-size: 1.5em;">Fill out the form below:</label><br>
+      <input type="text" id='fName' name="firstName" placeholder="Enter first name..." required></input>
+      <input type="text" id='lName' name="lastName" placeholder="Enter last name..." required></input>
+      <input type="number" id="roomNum" name="Room" placeholder="Enter the room number..." required></input>
+      <input type="text" id="date" name="datepicker" class="datepicker" placeholder="MM/DD/YYYY" required></input>
+      <input type="submit" id="rent" class="btn btn-primary" value="Rent Room" style="background-color: #000066; margin-left: 22em; margin-top: 1.5em;"></input>
+    </form> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger " data-dismiss="modal">Close</button>
@@ -344,12 +337,12 @@
         </svg>
         <h3>Room Number:</h3><p class="a b c d e f g h i"></p>
         <form method="post" action="/addname">
-      <label>Enter Your Name</label><br>
-      <input type="text" name="firstName" placeholder="Enter first name..." required></input>
-      <input type="text" name="lastName" placeholder="Enter last name..." required></input>
-      <input type="number" id="roomNum" name="Room" placeholder="Enter the room number..." required></input>
-      <input type="text" id="datepicker" name="datepicker" class="datepicker" placeholder="Enter the date" required></input>
-      <input type="submit" value="Add Name"></input>
+      <label>Fill out the form below:</label><br>
+      <input type="text" id='fName' name="firstName" placeholder="Enter first name..." required></input>
+      <input type="text" id='lName' name="lastName" placeholder="Enter last name..." required></input>
+      <input type="number" id="roomNum2" name="Room" placeholder="Enter the room number..." required></input>
+      <input type="text" id="date" name="datepicker" class="datepicker" placeholder="MM/DD/YYYY" required></input>
+      <input type="submit" id="rent" class="btn btn-primary" value="Rent Room" style="background-color: #000066; margin-left: 22em; margin-top: 1.5em;"></input>
     </form> 
 
       </div>
@@ -435,7 +428,7 @@
    <script>
    function myFunction() {
      var x = document.getElementsByClassName("a");
-     document.getElementById("roomNum").value = "254"
+     document.getElementById("roomNum2").value = "254"
      x[0].innerHTML = "254";
    
    }
@@ -443,7 +436,7 @@
    <script>
    function myFunction2() {
      var x = document.getElementsByClassName("b");
-     document.getElementById("roomNum").value = "208"
+     document.getElementById("roomNum2").value = "208"
      x[0].innerHTML = "208";
      
    }
@@ -451,14 +444,14 @@
    <script>
    function myFunction3() {
      var x = document.getElementsByClassName("c");
-     document.getElementById("roomNum").value = "227"
+     document.getElementById("roomNum2").value = "227"
      x[0].innerHTML = "227";
    }
    </script>
    <script>
    function myFunction4() {
      var x = document.getElementsByClassName("d");
-     document.getElementById("roomNum").value = "255"
+     document.getElementById("roomNum2").value = "255"
      x[0].innerHTML = "255";
    
    }
@@ -466,7 +459,7 @@
    <script>
    function myFunction5() {
      var x = document.getElementsByClassName("e");
-     document.getElementById("roomNum").value = "256"
+     document.getElementById("roomNum2").value = "256"
      x[0].innerHTML = "256";
    
    }
@@ -474,7 +467,7 @@
    <script>
    function myFunction6() {
      var x = document.getElementsByClassName("f");
-     document.getElementById("roomNum").value = "257"
+     document.getElementById("roomNum2").value = "257"
      x[0].innerHTML = "257";
    
    }
@@ -482,7 +475,7 @@
    <script>
    function myFunction7() {
      var x = document.getElementsByClassName("g");
-     document.getElementById("roomNum").value = "258"
+     document.getElementById("roomNum2").value = "258"
      x[0].innerHTML = "258";
    
    }
@@ -490,14 +483,14 @@
    <script>
    function myFunction8() {
      var x = document.getElementsByClassName("h");
-     document.getElementById("roomNum").value = "259"
+     document.getElementById("roomNum2").value = "259"
      x[0].innerHTML = "259";
    }
    </script>
    <script>
    function myFunction9() {
      var x = document.getElementsByClassName("i");
-     document.getElementById("roomNum").value = "235"
+     document.getElementById("roomNum2").value = "235"
      x[0].innerHTML = "235";
    
    }
@@ -505,16 +498,17 @@
    <script>
    function myFunction10() {
      var x = document.getElementsByClassName("j");
-     document.getElementById("roomNum").value = "N/A"
-     x[0].innerHTML = "N/A";
+     document.getElementById("roomNum").value = "100"
+     x[0].innerHTML = "100";
    
    }
    </script>
-   <script>
-   $("body").delegate("#datepicker", "focusin", function () {
-            
-            $(this).datepicker();
-        });</script>
+<script>
+jQuery.noConflict();
 
+  $( function() {
+    $( "#date" ).datepicker();
+  } );
+  </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <%- include ('footer'); %>
