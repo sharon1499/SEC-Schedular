@@ -55,9 +55,9 @@ html {
 }
 
 .bg-navbar-color {
-    /*background: linear-gradient(to bottom, #000066 0%, #ffffff 100%);*/
-    background: white;
+    background: #d1d4da;
     color: #000066;
+
 }
 
 .contact-image {
