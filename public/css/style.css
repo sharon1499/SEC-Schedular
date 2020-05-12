@@ -186,15 +186,20 @@ footer {
     font-size: 1.2em;
 }
 
+.infoHeader {
+    padding-top: 3em;
+}
+
 .title-section {
     font-size: 2em;
     padding: 4.5em 0 0;
     color: black;
     text-align: center;
-
-    /*font-family: New Century Schoolbook, TeX Gyre Schola, serif;*/
+    margin-top: 3em;
 }
-
+.infoSpace {
+    margin-bottom: 7em;
+}
 
 ::-webkit-scrollbar {
   width: 18px;
@@ -306,10 +311,12 @@ polygon:hover {
     color: black;
     width: 50%;
     border: 5px solid black;
-    border-radius: 0px;
-    margin-bottom: 20em;
+    border-radius: 80px;
+    margin-bottom: 13em;
     margin-top: 5em;
     padding: 4em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 .form-group
 {
