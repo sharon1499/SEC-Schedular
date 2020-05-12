@@ -20,11 +20,11 @@
     <link href="https://fonts.googleapis.com/css?family=Caladea|Oxanium&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
-    <title><?php site_name(); ?></title>
+    <title>GroupSynch</title>
     <link rel="shortcut icon" type="image/x-icon" href="shimane-japan-flag-symbol.svg" alt="GroupSynch Logo"/>
     </head>
   <nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar-color fixed-top" data-spy="affix" data-offset-top="197">
-  <a class="navbar-brand brand-padding" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="shimane-japan-flag-symbol.svg" class="icon-img" height="70" width="70" alt="GroupSynch Logo" title="This is our website logo"/> 
+  <a class="navbar-brand brand-padding" href="https://sec-schedulars.herokuapp.com//?page=home" ><img src="logo-blue.svg" id="icon-img" class="icon-img" height="70" width="70" alt="GroupSynch Logo" title="This is our website logo"/> 
   <span class="icon-name">
     <strong>GroupSynch</strong>
     </span>
@@ -43,6 +43,7 @@
 <?php page_content();?>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<<<<<<< HEAD:template/template.php
     <script>
     /*$(document).ready(function(){
       $(window).scroll(function() { // check if scroll event happened
@@ -62,6 +63,8 @@
       });
     });*/
 </script>
+=======
+>>>>>>> d34d24bc82843cf56979da991dd2f2193d42531c:Disregard/template/template.php
 </body>
    <footer> 
    <div class="container navbar-fixed-bottom">
