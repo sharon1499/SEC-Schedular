@@ -187,7 +187,7 @@ footer {
 }
 
 .infoHeader {
-    padding-top: 3em;
+    padding-top: 2.5em;
 }
 
 .title-section {
@@ -366,9 +366,13 @@ polygon:hover {
 
 }
 #howardFloors , #elizaFloors, #cctFloors, #recFloors, #davidFloors, #floors {
-
-    /*font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
     color: #ffffff;
+}
+
+#fName, #lName, #roomNum, #datepicker{
+    border: 1px solid #000066;
+    padding: 0.2em;
+    border-radius: 7px;
 }
 
 .res-title{
