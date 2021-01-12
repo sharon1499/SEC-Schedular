@@ -1,47 +1,73 @@
 var express = require('express');
 var app = express();
-var port = 3000;
-
+var path = require('path');
+var port = process.env.PORT || 3000;
 var bodyParser = require("body-parser");
-app.use(bodyParser.json());
+const User = require('./models/user.model');
+var mongoose = require("mongoose");
 
+
+app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ 
   extended: true
 }));
-
-const User = require('./models/user.model');
-var mongoose = require("mongoose");
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 mongoose.connect("mongodb+srv://test:test@cluster0-gahtk.mongodb.net/test?retryWrites=true&w=majority");
 mongoose.Promise = global.Promise;
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, "MongoDB connection error:"));
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/content/form.html');
+    res.render('home');
 });
+app.get('/contact',(req,res) => {
+    res.render('contact');
+})
+app.get('/information',(req,res) => {
+    res.render('information');
+})
 
-app.listen(port, () => {
-console.log('Server listening on port ' + port);
-});
+app.get('/success',(req,res) => {
+    res.render('success');
+})
 
+app.get('/unsuccessful',(req,res) => {
+    res.render('unsuccessful');
+})
 
+app.get('/faq',(req,res) => {
+    res.render('faq');
+})
+
+app.get('/datepicker',(req,res) => {
+    res.render('datepicker');
+})
 app.post("/addname", (req, res) => {
-    console.log(req.body.firstName)	
-    console.log(req.body.lastName)
-    console.log(req.body.Room)
-
-    let newUser = new User({
+    var newUser = new User({
         first: req.body.firstName,
         last: req.body.lastName,
         room: req.body.Room,
-        done: false
+        date: req.body.datepicker
     });
-
-    newUser.save(function(err, user){
+    User.findOne({ 
+    'room': req.body.Room,
+    'date': req.body.datepicker}, function(err, user) {
+      if (user) {
+          res.render('unsuccessful');
+      } else {
+        newUser.save(function(err, user){
         if (err){
-            res.json({"Error: ":err})
+            res.jsonp({"Error: ": err})
         }else{
-            res.json({"Status: ": "Successful", "ObjectId": user.id})
+            res.render('success');
         }
     })
+      }
+   })
+});
+
+app.listen(port, () => {
+    console.log('Server listening on port ' + port);
 });

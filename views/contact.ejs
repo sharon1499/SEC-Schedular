@@ -1,0 +1,40 @@
+<%- include ('header'); %>
+<div class="home-header">
+    <div class="schedule-intro">
+    <span class="campus-header">Contact Us</span>
+  </div>
+    </div>
+    <div class="title-section px-0 py-0">
+      <span class="home-building-header"><strong>For more Information</strong></span><br>
+      <span class="home-building-body-text">Fill out the contact form below</span></div>
+      <div class = "contactForm container">
+        <form class="form-horizontal" action="https://formspree.io/xayjlzyr" method="POST">
+            <div class = "form-group">
+                <label class = "control-label col-sm-2">Name:</label>
+                <div class= "col-sm-7">
+                    <input class ="form-control" id ="name" name="name" type = "text">
+                </div>
+            </div>
+            <div class = "form-group">
+                <label class = "control-label col-sm-2">Email:</label>
+                <div class= "col-sm-7">
+                    <input class ="form-control" id ="email" type = "email" name="_replyto" required>
+                </div>
+            </div>
+            <div class = "form-group">
+                <label class = "control-label col-sm-3">Message:</label>
+                    <div class= "col-sm-7">
+                        <textarea class = "form-control" id = "message" name="message" rows="5"></textarea>
+                    </div>
+                </div>
+            
+            <div class="form-group">        
+                <div class="col-sm-offset-5 col-sm-10">
+                    <button type="submit" class="btn btn-primary btn-default" style="background-color: #000066;" value="Send">Submit</button>
+                    <input type="reset" value="Clear" class="btn btn-primary" style="background-color: #000066;">
+                </div>
+            </div>        
+        </form>   
+    </div>
+    </div>
+<%- include ('footer'); %>
